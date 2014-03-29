@@ -60,7 +60,15 @@
     "fancyguy/webroot-installer": "1.1.0",
     "composer/installers": "v1.0.12",
     "wp-cli/wp-cli": "v0.14.1",
-    "vlucas/phpdotenv": "~1.0.6"
+    "vlucas/phpdotenv": "~1.0.6",
+    "wpackagist-plugin/akismet": "*",
+    "wpackagist-plugin/column-shortcodes": "*",
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
+    "wpackagist-plugin/jetpack": "*",
+    "wpackagist-plugin/mailchimp-for-wp": "*",
+    "wpackagist-plugin/shortcodes-ultimate": "*",
+    "wpackagist-plugin/wpremote": "*",
+    "wpackagist-plugin/wp-super-cache": "*"
   },
   "extra": {
     "installer-paths": {
