@@ -7,8 +7,8 @@ set :deploy_to, "/home/openmedia/#{fetch(:application)}"
 
 set :log_level, :info
 
-set :linked_files, %w{.env}
-set :linked_dirs, %w{web/app/uploads}
+set :linked_files, %w(.env web/.htaccess)
+set :linked_dirs, %w(web/app/uploads)
 
 namespace :deploy do
   desc 'Restart application'
