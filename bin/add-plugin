@@ -1,0 +1,3 @@
+#!/bin/sh
+
+composer require "wpackagist-plugin/$1"
