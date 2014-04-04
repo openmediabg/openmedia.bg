@@ -1010,23 +1010,6 @@ ul.nav-menu li:hover > ul,
 	margin: 0 0 5px;
 }
 
-body.home .entry-title {
-	color: #555;
-}
-
-body.home .entry-content h2 {
-	text-align: center;
-	font-weight: normal;
-}
-
-body.home .entry-content h4 {
-	text-align: center;
-}
-
-body.home .entry-content h3, h4, h5 {
-	font-weight: normal;
-}
-
 .entry-title a {
 	color: #141412;
 }
