@@ -1,0 +1,5 @@
+#!/bin/sh
+
+scripts_folder=`dirname $0`
+
+$scripts_folder/deploy-code && $scripts_folder/deploy-database
