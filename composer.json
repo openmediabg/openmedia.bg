@@ -69,7 +69,8 @@
     "wpackagist-plugin/shortcodes-ultimate": "*",
     "wpackagist-plugin/wpremote": "*",
     "wpackagist-plugin/wp-super-cache": "*",
-    "wpackagist-plugin/cyr3lat": "*"
+    "wpackagist-plugin/cyr3lat": "*",
+    "wpackagist-plugin/developer": "*"
   },
   "extra": {
     "installer-paths": {
