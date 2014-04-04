@@ -31,6 +31,10 @@ body.home .entry-content h3, h4, h5 {
 	Border: 5px solid;
 }
 
+.site {
+	max-width: none;
+}
+
 .page h1.entry-title {
 	margin-top: 10px;
 	font-size: 3em;
