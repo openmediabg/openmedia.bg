@@ -1,5 +1,5 @@
 set :application, 'openmedia.bg'
-set :repo_url, 'https://github.com/open-media/openmedia.bg.git'
+set :repo_url, 'https://github.com/openmediabg/openmedia.bg.git'
 
 set :branch, :master
 
