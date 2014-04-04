@@ -1,0 +1,108 @@
+/*
+ Theme Name:   Open Media
+ Description:  Open Media Foundation Theme based on Twenty Thirteen
+ Author:       Dimitar Dimitrov
+ Author URI:   http://openmedia.bg
+ Template:     twentythirteen
+ Version:      1.0.0
+ Text Domain:  open-media
+*/
+
+@import url("../twentythirteen/style.css");
+
+body.home .entry-title {
+	color: #555;
+}
+
+body.home .entry-content h2 {
+	text-align: center;
+	font-weight: normal;
+}
+
+body.home .entry-content h4 {
+	text-align: center;
+}
+
+body.home .entry-content h3, h4, h5 {
+	font-weight: normal;
+}
+
+.site-logo img {
+	Border: 5px solid;
+}
+
+.page h1.entry-title {
+	margin-top: 10px;
+	font-size: 3em;
+}
+
+.site-header .home-link {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Myriad Pro, Helvetica, Verdana, Sans-serif;
+}
+
+.su-button-style-flat span {
+	font-family: Myriad Pro, Helvetika, Verdana, sans-serif;
+}
+
+body {
+	font-family: Myriad Sans, Helvetica, Verdana sans-serif;
+}
+
+.navbar {
+	background-color: #b1b1b1;
+}
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+	color: #333;
+	font-weight: bold;
+}
+
+.entry-header, .entry-content, .entry-summary, .entry-meta {
+	max-width: 750px;
+}
+
+ul.nav-menu, div.nav-menu > ul {
+	margin: 0 0 0 150px;
+}
+
+#post-2 > header > h1 {
+	text-align: center;
+}
+
+.site-footer {
+	background-color: #b1b1b1;
+}
+
+.entry-meta a:hover {
+	color: #039FB0;
+}
+
+.entry-meta a {
+	color: #039FB0;
+}
+
+.entry-content a, .comment-content a {
+	color: #039FB0;
+}
+
+.entry-content a:hover, .comment-content a:hover {
+	color: #039FB0;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+	background: linear-gradient(to bottom,#039FB0 0%,#039FB0 100%);
+	border: none;
+	border-bottom: 3px solid #037480;
+}
+
+button:hover, button:focus, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus {
+	background: linear-gradient(to bottom,#039FB0 0%,#037480 100%);
+}
+
+.entry-title a:hover {
+	color: #037480;
+}
