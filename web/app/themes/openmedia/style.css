@@ -53,7 +53,7 @@ body {
 }
 
 .navbar {
-	background-color: #f3f3f3;
+	background-color: #f5f3f3;
 	max-width: none;
 }
 
@@ -76,10 +76,6 @@ ul.nav-menu, div.nav-menu > ul {
 
 #post-2 > header > h1 {
 	text-align: center;
-}
-
-.site-footer {
-	background-color: #b1b1b1;
 }
 
 .entry-meta a:hover {
@@ -110,6 +106,18 @@ button:hover, button:focus, input[type="submit"]:hover, input[type="button"]:hov
 
 .entry-title a:hover {
 	color: #037480;
+}
+
+.site-footer .sidebar-container {
+	background-color: #090304;
+}
+
+.widget .widget-title {
+	font-style: normal;
+}
+
+.site-footer .widget .widget-title {
+	color: #666;
 }
 
 
