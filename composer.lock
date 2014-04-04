@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b44b7c86ac57606ccbd0e7e929417139",
+    "hash": "04ca36ad5e625f23196659066387ba8b",
     "packages": [
         {
             "name": "composer/installers",
@@ -559,6 +559,29 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/column-shortcodes/"
+        },
+        {
+            "name": "wpackagist-plugin/cyr3lat",
+            "version": "3.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/cyr3lat/",
+                "reference": "tags/3.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/cyr3lat.3.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/cyr3lat": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/cyr3lat/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
