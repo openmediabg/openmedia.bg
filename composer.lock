@@ -562,15 +562,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.2.15",
+            "version": "4.2.17",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/v4.2.15"
+                "reference": "tags/v4.2.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.2.15.zip",
+                "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.2.17.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -631,15 +631,15 @@
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",
-            "version": "4.7.0",
+            "version": "4.7.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/shortcodes-ultimate/",
-                "reference": "tags/4.7.0"
+                "reference": "tags/4.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/shortcodes-ultimate.4.7.0.zip",
+                "url": "http://downloads.wordpress.org/plugin/shortcodes-ultimate.4.7.1.zip",
                 "reference": null,
                 "shasum": null
             },
