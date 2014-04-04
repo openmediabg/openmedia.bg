@@ -1,6 +1,6 @@
 #!/bin/sh
 
-project_root="$0/../.."
+project_root="`dirname $0`/.."
 
 composer update && git add $project_root/composer.json && git ci -m 'Update project dependencies'
 
