@@ -53,12 +53,17 @@ body {
 }
 
 .navbar {
-	background-color: #b1b1b1;
+	background-color: #f3f3f3;
+	max-width: none;
 }
 
-.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
 	color: #333;
 	font-weight: bold;
+	font-style: normal;
 }
 
 .entry-header, .entry-content, .entry-summary, .entry-meta {
