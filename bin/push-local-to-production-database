@@ -1,0 +1,23 @@
+#!/bin/sh
+
+project_root="`dirname $0`/.."
+production="openmedia@openmedia.bg"
+sql_file_name="openmedia-development.sql"
+wp_deployment_path="/home/openmedia/openmedia.bg/current/web/wp"
+backups_dir="/home/openmedia/database-backus"
+wp_cli_executable="$project_root/vendor/wp-cli/wp-cli/bin/wp"
+backup_file="openmedia-`date +'%Y-%m-%d_%H%I%S'`.sql"
+
+rm -f $project_root/$sql_file_name && \
+	$wp_cli_executable db export $project_root/$sql_file_name --path="$project_root/web/wp" && \
+	scp $project_root/$sql_file_name $production:"$sql_file_name" && \
+	ssh $production "
+		mkdir -p $backups_dir &&
+		wp db export $backups_dir/$backup_file --path=$wp_deployment_path &&
+		bzip2 $backups_dir/$backup_file &&
+		wp db import ~/$sql_file_name --path=$wp_deployment_path
+	"
+
+rm -f $project_root/$sql_file_name
+
+echo 'Done.'
