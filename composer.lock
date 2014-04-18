@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "52eacc41e3d8cc905d7382d7d3b328ea",
+    "hash": "569aa8c85121bdaa9df80f833e4f57d3",
     "packages": [
         {
             "name": "composer/installers",
@@ -403,10 +403,10 @@
         },
         {
             "name": "wordpress-bg",
-            "version": "3.8.1",
+            "version": "3.9",
             "dist": {
                 "type": "zip",
-                "url": "http://bg.wordpress.org/wordpress-3.8.1-bg_BG.zip",
+                "url": "http://bg.wordpress.org/wordpress-3.9-bg_BG.zip",
                 "reference": null,
                 "shasum": null
             },

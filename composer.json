@@ -42,11 +42,11 @@
       "type": "package",
       "package": {
         "name": "wordpress-bg",
-        "version": "3.8.1",
+        "version": "3.9",
         "type": "webroot",
         "dist": {
           "type": "zip",
-          "url": "http://bg.wordpress.org/wordpress-3.8.1-bg_BG.zip"
+          "url": "http://bg.wordpress.org/wordpress-3.9-bg_BG.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.1.0"
@@ -56,7 +56,7 @@
   ],
   "require": {
     "php": ">=5.3.2",
-    "wordpress-bg": "3.8.1",
+    "wordpress-bg": "3.9",
     "fancyguy/webroot-installer": "1.1.0",
     "composer/installers": "v1.0.12",
     "wp-cli/wp-cli": "v0.14.1",
