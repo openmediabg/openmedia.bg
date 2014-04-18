@@ -133,16 +133,16 @@
         },
         {
             "name": "mustache/mustache",
-            "version": "v2.5.1",
+            "version": "v2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "996c944fa2ddedddfaf0d276b913809d6a32fd85"
+                "reference": "43dc9457a2089cf86c0f7fdb79fcdc516293a4b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/996c944fa2ddedddfaf0d276b913809d6a32fd85",
-                "reference": "996c944fa2ddedddfaf0d276b913809d6a32fd85",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/43dc9457a2089cf86c0f7fdb79fcdc516293a4b6",
+                "reference": "43dc9457a2089cf86c0f7fdb79fcdc516293a4b6",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2014-01-09 00:36:09"
+            "time": "2014-04-14 01:24:40"
         },
         {
             "name": "nb/oxymel",
@@ -308,17 +308,17 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "b6735d1fc16da13c4c7dddfe78366a4a098cf011"
+                "reference": "ab301c7d21f536c34ab6c2c79dba8d465104c518"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/b6735d1fc16da13c4c7dddfe78366a4a098cf011",
-                "reference": "b6735d1fc16da13c4c7dddfe78366a4a098cf011",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/ab301c7d21f536c34ab6c2c79dba8d465104c518",
+                "reference": "ab301c7d21f536c34ab6c2c79dba8d465104c518",
                 "shasum": ""
             },
             "require": {
@@ -353,7 +353,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-01-07 13:28:54"
+            "time": "2014-03-01 17:35:04"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -516,15 +516,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "2.6.0",
+            "version": "3.0.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/2.6.0"
+                "reference": "tags/3.0.0-RC1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/akismet.2.6.0.zip",
+                "url": "http://downloads.wordpress.org/plugin/akismet.3.0.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -608,15 +608,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.2.17",
+            "version": "4.2.18",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/v4.2.17"
+                "reference": "tags/v4.2.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.2.17.zip",
+                "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.2.18.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -631,15 +631,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "2.9.2",
+            "version": "3.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/2.9.2"
+                "reference": "tags/3.0-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/jetpack.2.9.2.zip",
+                "url": "http://downloads.wordpress.org/plugin/jetpack.3.0.zip",
                 "reference": null,
                 "shasum": null
             },
