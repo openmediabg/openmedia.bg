@@ -2,5 +2,5 @@
 
 project_root="`dirname $0`/.."
 
-composer update && git add $project_root/composer.json && git ci -m 'Update project dependencies'
+composer update && git add $project_root/composer.json && git commit -m 'Update project dependencies'
 
