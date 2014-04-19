@@ -40,7 +40,8 @@ $table_prefix = 'wp_';
  *
  * A corresponding MO file for the chosen language must be installed to app/languages
  */
-define('WPLANG', '');
+define('WPLANG', 'bg_BG');
+define('WP_LANG_DIR', $webroot_dir . '/wp/wp-content/languages');
 
 /**
  * Authentication Unique Keys and Salts
