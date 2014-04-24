@@ -33,6 +33,7 @@ body.home .entry-content h3, h4, h5 {
 
 .site {
 	max-width: none;
+	border-style: none;
 }
 
 .page h1.entry-title {
