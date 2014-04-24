@@ -78,7 +78,11 @@ body {
 	color: #000;
 }
 
-.entry-header, .entry-content, .entry-summary, .entry-meta {
+.entry-header,
+.entry-content,
+.entry-summary,
+.entry-meta,
+.site-footer .sidebar-container {
 	max-width: 750px;
 }
 
@@ -118,8 +122,25 @@ button:hover, button:focus, input[type="submit"]:hover, input[type="button"]:hov
 	color: #037480;
 }
 
-.site-footer .sidebar-container {
+.site-footer {
 	background-color: #303033;
+	padding: 50px 0 30px 0;
+}
+
+.site-footer .sidebar-container {
+	background: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.site-footer .widget-area {
+	padding: 0;
+}
+
+.site-footer .widget {
+	padding: 0;
+	width: 220px;
+	margin: 0 15px 30px 15px;
 }
 
 .widget .widget-title {
