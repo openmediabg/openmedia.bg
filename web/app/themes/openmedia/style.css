@@ -78,6 +78,7 @@ body {
 	color: #000;
 }
 
+.main-navigation,
 .entry-header,
 .entry-content,
 .entry-summary,
@@ -86,8 +87,9 @@ body {
 	max-width: 750px;
 }
 
-ul.nav-menu, div.nav-menu > ul {
-	margin: 0 0 0 150px;
+ul.nav-menu,
+div.nav-menu > ul {
+	margin: 0 0 0 -20px;
 }
 
 #post-2 > header > h1 {
