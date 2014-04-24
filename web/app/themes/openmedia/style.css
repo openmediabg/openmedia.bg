@@ -57,7 +57,7 @@ body {
 }
 
 .navbar {
-	background-color: #f5f3f3;
+	background-color: #f3f3f3;
 	max-width: none;
 }
 
@@ -65,9 +65,16 @@ body {
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
-	color: #333;
-	font-weight: bold;
+	color: #000;
+	font-weight: normal;
 	font-style: normal;
+	background-color: #fff;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+	background-color: #fff;
+	color: #000;
 }
 
 .entry-header, .entry-content, .entry-summary, .entry-meta {
