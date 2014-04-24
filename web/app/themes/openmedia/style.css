@@ -137,12 +137,15 @@ button:hover, button:focus, input[type="submit"]:hover, input[type="button"]:hov
 
 .site-footer .widget-area {
 	padding: 0;
+	margin-right: -30px;
+	width: auto;
+	max-width: none;
 }
 
 .site-footer .widget {
 	padding: 0;
 	width: 220px;
-	margin: 0 15px 30px 15px;
+	margin: 0 30px 30px 0;
 }
 
 .widget .widget-title {
