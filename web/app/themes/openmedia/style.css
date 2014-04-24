@@ -89,19 +89,17 @@ ul.nav-menu, div.nav-menu > ul {
 	text-align: center;
 }
 
+a,
+.entry-meta a,
+.site-footer .widget a,
+.entry-content a,
+.comment-content a {
+	color: #039FB0;
+}
+
+.entry-content a:hover,
+.comment-content a:hover,
 .entry-meta a:hover {
-	color: #039FB0;
-}
-
-.entry-meta a {
-	color: #039FB0;
-}
-
-.entry-content a, .comment-content a {
-	color: #039FB0;
-}
-
-.entry-content a:hover, .comment-content a:hover {
 	color: #039FB0;
 }
 
