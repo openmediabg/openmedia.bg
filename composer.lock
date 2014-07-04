@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2dfde521f24af63fabfbf8d78c9750a6",
+    "hash": "5a3da4c19ae38de761fe28f97c2e4a04",
     "packages": [
         {
             "name": "composer/installers",
@@ -355,6 +355,17 @@
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
             "time": "2014-05-22 13:47:45"
+        },
+        {
+            "name": "tommusrhodus/kyte",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:mitio/kyte.git",
+                "reference": "master"
+            },
+            "type": "wordpress-theme",
+            "time": "2014-07-04 08:57:37"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -773,9 +784,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "tommusrhodus/kyte": 20
+    },
     "platform": {
         "php": ">=5.3.2"
     },

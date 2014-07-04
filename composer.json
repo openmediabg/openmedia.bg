@@ -52,6 +52,19 @@
           "fancyguy/webroot-installer": "1.1.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "tommusrhodus/kyte",
+        "type": "wordpress-theme",
+        "version": "master",
+        "source": {
+          "type": "git",
+          "url": "git@bitbucket.org:openmediabg/kyte.git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -61,11 +74,12 @@
     "composer/installers": "v1.0.12",
     "wp-cli/wp-cli": "v0.14.1",
     "vlucas/phpdotenv": "~1.0.6",
+    "tommusrhodus/kyte": "dev-master",
+    "wpackagist-theme/twentythirteen": "*",
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/column-shortcodes": "*",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/jetpack": "*",
-    "wpackagist-theme/twentythirteen": "*",
     "wpackagist-plugin/mailchimp-for-wp": "*",
     "wpackagist-plugin/shortcodes-ultimate": "*",
     "wpackagist-plugin/wpremote": "*",

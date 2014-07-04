@@ -20,6 +20,7 @@ web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 !web/app/mu-plugins/register-theme-directory.php
+web/app/themes/kyte
 
 # Vendor (e.g. Composer)
 vendor/*
