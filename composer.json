@@ -65,6 +65,7 @@
     "wpackagist-plugin/column-shortcodes": "*",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/jetpack": "*",
+    "wpackagist-theme/twentythirteen": "*",
     "wpackagist-plugin/mailchimp-for-wp": "*",
     "wpackagist-plugin/shortcodes-ultimate": "*",
     "wpackagist-plugin/wpremote": "*",

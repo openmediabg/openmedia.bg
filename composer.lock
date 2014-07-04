@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "08216cefe62b3d3f8f2658cf80821e7a",
+    "hash": "2dfde521f24af63fabfbf8d78c9750a6",
     "packages": [
         {
             "name": "composer/installers",
@@ -743,6 +744,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/wpremote/"
+        },
+        {
+            "name": "wpackagist-theme/twentythirteen",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/twentythirteen/",
+                "reference": "1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://wordpress.org/themes/download/twentythirteen.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "http://wordpress.org/themes/twentythirteen/"
         }
     ],
     "packages-dev": [
