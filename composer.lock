@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "569aa8c85121bdaa9df80f833e4f57d3",
+    "hash": "08216cefe62b3d3f8f2658cf80821e7a",
     "packages": [
         {
             "name": "composer/installers",
@@ -133,16 +133,16 @@
         },
         {
             "name": "mustache/mustache",
-            "version": "v2.6.0",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "43dc9457a2089cf86c0f7fdb79fcdc516293a4b6"
+                "reference": "1430ca884912eaba2b3830856b45685733b16789"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/43dc9457a2089cf86c0f7fdb79fcdc516293a4b6",
-                "reference": "43dc9457a2089cf86c0f7fdb79fcdc516293a4b6",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/1430ca884912eaba2b3830856b45685733b16789",
+                "reference": "1430ca884912eaba2b3830856b45685733b16789",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2014-04-14 01:24:40"
+            "time": "2014-06-20 19:34:49"
         },
         {
             "name": "nb/oxymel",
@@ -259,16 +259,16 @@
         },
         {
             "name": "rmccue/requests",
-            "version": "v1.6.0",
+            "version": "v1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmccue/Requests.git",
-                "reference": "756374edd59ac69268ed35481a506ebd4e732525"
+                "reference": "6aac485666c2955077d77b796bbdd25f0013a4ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmccue/Requests/zipball/756374edd59ac69268ed35481a506ebd4e732525",
-                "reference": "756374edd59ac69268ed35481a506ebd4e732525",
+                "url": "https://api.github.com/repos/rmccue/Requests/zipball/6aac485666c2955077d77b796bbdd25f0013a4ea",
+                "reference": "6aac485666c2955077d77b796bbdd25f0013a4ea",
                 "shasum": ""
             },
             "require": {
@@ -304,21 +304,21 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2013-10-06 13:30:32"
+            "time": "2014-05-18 04:59:02"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.4.3",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "ab301c7d21f536c34ab6c2c79dba8d465104c518"
+                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/ab301c7d21f536c34ab6c2c79dba8d465104c518",
-                "reference": "ab301c7d21f536c34ab6c2c79dba8d465104c518",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/307aad2c541bbdf43183043645e186ef2cd6b973",
+                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973",
                 "shasum": ""
             },
             "require": {
@@ -327,7 +327,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -353,7 +353,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-03-01 17:35:04"
+            "time": "2014-05-22 13:47:45"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -403,10 +403,10 @@
         },
         {
             "name": "wordpress-bg",
-            "version": "3.9",
+            "version": "3.9.1",
             "dist": {
                 "type": "zip",
-                "url": "http://bg.wordpress.org/wordpress-3.9-bg_BG.zip",
+                "url": "http://bg.wordpress.org/wordpress-3.9.1-bg_BG.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -608,15 +608,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.2.18",
+            "version": "4.2.21",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/v4.2.18"
+                "reference": "tags/4.2.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.2.18.zip",
+                "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.2.21.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -631,15 +631,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.0",
+            "version": "3.0.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.0-beta1"
+                "reference": "tags/3.0.2b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/jetpack.3.0.zip",
+                "url": "http://downloads.wordpress.org/plugin/jetpack.3.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -654,15 +654,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "1.5.8",
+            "version": "2.0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/1.5.8"
+                "reference": "tags/2.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/mailchimp-for-wp.1.5.8.zip",
+                "url": "http://downloads.wordpress.org/plugin/mailchimp-for-wp.2.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -677,15 +677,15 @@
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",
-            "version": "4.7.2",
+            "version": "4.9.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/shortcodes-ultimate/",
-                "reference": "tags/4.7.2"
+                "reference": "tags/4.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/shortcodes-ultimate.4.7.2.zip",
+                "url": "http://downloads.wordpress.org/plugin/shortcodes-ultimate.4.9.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -723,15 +723,15 @@
         },
         {
             "name": "wpackagist-plugin/wpremote",
-            "version": "2.7.2",
+            "version": "2.7.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wpremote/",
-                "reference": "tags/2.7.2"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wpremote.2.7.2.zip",
+                "url": "http://downloads.wordpress.org/plugin/wpremote.zip",
                 "reference": null,
                 "shasum": null
             },
