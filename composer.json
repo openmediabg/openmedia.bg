@@ -56,6 +56,68 @@
     {
       "type": "package",
       "package": {
+        "name": "tommusrhodus/ebor-cpt",
+        "type": "wordpress-plugin",
+        "version": "0.0.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/tommusrhodus/ebor-cpt/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "tommusrhodus/Ebor-Shortcodes",
+        "type": "wordpress-plugin",
+        "version": "0.0.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/tommusrhodus/Ebor-Shortcodes/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "tommusrhodus/Ebor-Popular-Posts",
+        "type": "wordpress-plugin",
+        "version": "0.0.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/tommusrhodus/Ebor-Popular-Posts/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "revolution-slider",
+        "type": "wordpress-plugin",
+        "version": "3.0.95",
+        "source": {
+          "type": "git",
+          "url": "git@bitbucket.org:openmediabg/revslider.git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "zilla-likes",
+        "type": "wordpress-plugin",
+        "version": "1.0.0",
+        "source": {
+          "type": "git",
+          "url": "git@bitbucket.org:openmediabg/zilla-likes.git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "tommusrhodus/kyte",
         "type": "wordpress-theme",
         "version": "master",
@@ -63,6 +125,13 @@
           "type": "git",
           "url": "git@bitbucket.org:openmediabg/kyte.git",
           "reference": "master"
+        },
+        "require": {
+          "tommusrhodus/ebor-cpt": "*@dev",
+          "tommusrhodus/Ebor-Shortcodes": "*@dev",
+          "tommusrhodus/Ebor-Popular-Posts": "*@dev",
+          "zilla-likes": "*@dev",
+          "wpackagist-plugin/contact-form-7": "*"
         }
       }
     }
@@ -85,6 +154,7 @@
     "wpackagist-plugin/wpremote": "*",
     "wpackagist-plugin/wp-super-cache": "*",
     "wpackagist-plugin/cyr3lat": "*",
+    "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/developer": "*"
   },
   "extra": {

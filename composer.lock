@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5a3da4c19ae38de761fe28f97c2e4a04",
+    "hash": "83ba0b53c5a939eba890c96b7d5438c7",
     "packages": [
         {
             "name": "composer/installers",
@@ -357,12 +357,52 @@
             "time": "2014-05-22 13:47:45"
         },
         {
+            "name": "tommusrhodus/Ebor-Popular-Posts",
+            "version": "0.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/tommusrhodus/Ebor-Popular-Posts/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "tommusrhodus/Ebor-Shortcodes",
+            "version": "0.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/tommusrhodus/Ebor-Shortcodes/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "tommusrhodus/ebor-cpt",
+            "version": "0.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/tommusrhodus/ebor-cpt/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "tommusrhodus/kyte",
             "version": "master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:mitio/kyte.git",
                 "reference": "master"
+            },
+            "require": {
+                "tommusrhodus/ebor-cpt": "*@dev",
+                "tommusrhodus/ebor-popular-posts": "*@dev",
+                "tommusrhodus/ebor-shortcodes": "*@dev",
+                "wpackagist-plugin/contact-form-7": "*",
+                "zilla-likes": "*@dev"
             },
             "type": "wordpress-theme",
             "time": "2014-07-04 08:57:37"
@@ -573,6 +613,29 @@
             "homepage": "http://wordpress.org/plugins/column-shortcodes/"
         },
         {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "3.9",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/3.9-beta"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/contact-form-7.3.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/contact-form-7": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/contact-form-7/"
+        },
+        {
             "name": "wpackagist-plugin/cyr3lat",
             "version": "3.5",
             "source": {
@@ -711,6 +774,29 @@
             "homepage": "http://wordpress.org/plugins/shortcodes-ultimate/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/wordpress-importer": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
             "name": "wpackagist-plugin/wp-super-cache",
             "version": "1.4",
             "source": {
@@ -775,6 +861,16 @@
             },
             "type": "wordpress-theme",
             "homepage": "http://wordpress.org/themes/twentythirteen/"
+        },
+        {
+            "name": "zilla-likes",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:openmediabg/zilla-likes.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
         }
     ],
     "packages-dev": [
