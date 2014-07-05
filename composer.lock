@@ -423,7 +423,7 @@
             "version": "master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:mitio/kyte.git",
+                "url": "git@bitbucket.org:openmediabg/kyte.git",
                 "reference": "master"
             },
             "require": {
