@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f2e337394a14aaf9423745cfc4201c1",
+    "hash": "e3a171d92e01395a1ac9d62433e0dc98",
     "packages": [
         {
             "name": "composer/installers",
@@ -385,7 +385,10 @@
                 "reference": null,
                 "shasum": null
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "Ebor-Popular-Posts-master"
+            }
         },
         {
             "name": "tommusrhodus/Ebor-Shortcodes",
@@ -396,7 +399,10 @@
                 "reference": null,
                 "shasum": null
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "Ebor-Shortcodes-master"
+            }
         },
         {
             "name": "tommusrhodus/ebor-cpt",
@@ -407,7 +413,10 @@
                 "reference": null,
                 "shasum": null
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "ebor-cpt-master"
+            }
         },
         {
             "name": "tommusrhodus/kyte",
