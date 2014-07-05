@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "17da10b741ecf4b369972dfd1619a296",
+    "hash": "6f2e337394a14aaf9423745cfc4201c1",
     "packages": [
         {
             "name": "composer/installers",
@@ -131,6 +131,16 @@
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
             "time": "2013-03-15 17:51:14"
+        },
+        {
+            "name": "jetpack-photon-local-domains",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openmediabg/jetpack-photon-local-domains.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "mustache/mustache",

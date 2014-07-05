@@ -135,6 +135,19 @@
           "wpackagist-plugin/contact-form-7": "*"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "jetpack-photon-local-domains",
+        "type": "wordpress-plugin",
+        "version": "0.0.1",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/openmediabg/jetpack-photon-local-domains.git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -145,6 +158,7 @@
     "wp-cli/wp-cli": "v0.14.1",
     "vlucas/phpdotenv": "~1.0.6",
     "tommusrhodus/kyte": "dev-master",
+    "jetpack-photon-local-domains": "*",
     "wpackagist-theme/twentythirteen": "*",
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/column-shortcodes": "*",
