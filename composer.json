@@ -179,7 +179,8 @@
     "wpackagist-plugin/wp-super-cache": "*",
     "wpackagist-plugin/cyr3lat": "*",
     "wpackagist-plugin/wordpress-importer": "*",
-    "wpackagist-plugin/developer": "*"
+    "wpackagist-plugin/developer": "*",
+    "wpackagist-plugin/widget-shortcode": "*"
   },
   "extra": {
     "installer-paths": {
