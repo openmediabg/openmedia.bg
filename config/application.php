@@ -65,6 +65,11 @@ define('WP_CACHE', true);
 define('WPCACHEHOME', WP_CONTENT_DIR . '/plugins/wp-super-cache/');
 
 /**
+ * BackUpWordPress Settings
+ */
+define('HMBKP_PATH', $root_dir . '/backups');
+
+/**
  * Bootstrap WordPress
  */
 if (!defined('ABSPATH')) {

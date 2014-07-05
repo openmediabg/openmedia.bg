@@ -180,6 +180,7 @@
     "wpackagist-plugin/cyr3lat": "*",
     "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/developer": "*",
+    "wpackagist-plugin/backupwordpress": "*",
     "wpackagist-plugin/widget-shortcode": "*"
   },
   "extra": {

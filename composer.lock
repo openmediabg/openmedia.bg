@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e168fda3eaddff5f7ed4461bb371fd6b",
+    "hash": "d0c1e3c4e7993e045614ada249dc0db6",
     "packages": [
         {
             "name": "composer/installers",
@@ -618,6 +618,29 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/backupwordpress",
+            "version": "2.6.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/backupwordpress/",
+                "reference": "tags/2.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/backupwordpress.2.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/backupwordpress": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/backupwordpress/"
         },
         {
             "name": "wpackagist-plugin/column-shortcodes",
