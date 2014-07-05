@@ -3,7 +3,7 @@
 project_root="`dirname $0`/.."
 production="openmedia@openmedia.bg"
 sql_file_name="openmedia-production.sql"
-wp_cli_executable="$project_root/vendor/wp-cli/wp-cli/bin/wp"
+wp_cli_executable="$project_root/bin/wp"
 
 ssh $production "wp db export $sql_file_name --path=/home/openmedia/openmedia.bg/current/web/wp" && \
 	scp $production:"$sql_file_name" $project_root/$sql_file_name && \
