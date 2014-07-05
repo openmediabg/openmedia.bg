@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "83ba0b53c5a939eba890c96b7d5438c7",
+    "hash": "17da10b741ecf4b369972dfd1619a296",
     "packages": [
         {
             "name": "composer/installers",
@@ -219,6 +219,16 @@
             "time": "2013-02-24 15:01:54"
         },
         {
+            "name": "revslider",
+            "version": "3.0.95",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:openmediabg/revslider.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "rhumsaa/array_column",
             "version": "1.1.2",
             "source": {
@@ -398,6 +408,7 @@
                 "reference": "master"
             },
             "require": {
+                "revslider": "*@dev",
                 "tommusrhodus/ebor-cpt": "*@dev",
                 "tommusrhodus/ebor-popular-posts": "*@dev",
                 "tommusrhodus/ebor-shortcodes": "*@dev",

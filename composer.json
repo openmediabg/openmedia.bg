@@ -92,7 +92,7 @@
     {
       "type": "package",
       "package": {
-        "name": "revolution-slider",
+        "name": "revslider",
         "type": "wordpress-plugin",
         "version": "3.0.95",
         "source": {
@@ -131,6 +131,7 @@
           "tommusrhodus/Ebor-Shortcodes": "*@dev",
           "tommusrhodus/Ebor-Popular-Posts": "*@dev",
           "zilla-likes": "*@dev",
+          "revslider": "*@dev",
           "wpackagist-plugin/contact-form-7": "*"
         }
       }
