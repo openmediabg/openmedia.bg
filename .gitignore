@@ -21,7 +21,6 @@ web/app/uploads/*
 !web/app/uploads/.gitkeep
 !web/app/mu-plugins/register-theme-directory.php
 web/app/themes/kyte
-web/app/wp-cache-config.php
 
 # Vendor (e.g. Composer)
 vendor/*
