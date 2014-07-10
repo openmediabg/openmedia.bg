@@ -172,7 +172,7 @@
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/column-shortcodes": "*",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
-    "wpackagist-plugin/jetpack": "*@stable",
+    "wpackagist-plugin/jetpack": "3.0.2",
     "wpackagist-plugin/mailchimp-for-wp": "*",
     "wpackagist-plugin/shortcodes-ultimate": "*",
     "wpackagist-plugin/wpremote": "*",

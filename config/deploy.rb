@@ -1,13 +1,9 @@
 set :application, 'openmedia.bg'
 set :repo_url, 'https://github.com/openmediabg/openmedia.bg.git'
-
 set :branch, :master
-
 set :deploy_to, "/home/openmedia/#{fetch(:application)}"
-
 set :log_level, :info
 set :keep_releases, 15
-
 set :linked_files, %w(.env web/.htaccess)
 set :linked_dirs, %w(web/app/uploads backups)
 
