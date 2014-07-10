@@ -4,7 +4,9 @@ production_server='openmedia@openmedia.bg'
 production_project_root='/home/openmedia/openmedia.bg'
 local_project_root="`dirname $0`/.."
 uploads_path='web/app/uploads'
+revslider_css_path='web/app/plugins/revslider/rs-plugin/css'
 
 rsync -r --progress $production_server:"$production_project_root/shared/$uploads_path/" "$local_project_root/$uploads_path"
+rsync -r --progress $production_server:"$production_project_root/shared/$revslider_css_path/" "$local_project_root/$revslider_css_path"
 
 echo 'Done.'
