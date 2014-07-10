@@ -172,7 +172,7 @@
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/column-shortcodes": "*",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
-    "wpackagist-plugin/jetpack": "*",
+    "wpackagist-plugin/jetpack": "*@stable",
     "wpackagist-plugin/mailchimp-for-wp": "*",
     "wpackagist-plugin/shortcodes-ultimate": "*",
     "wpackagist-plugin/wpremote": "*",
@@ -181,6 +181,8 @@
     "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/developer": "*",
     "wpackagist-plugin/backupwordpress": "*",
+    "wpackagist-plugin/keyring": "*",
+    "wpackagist-plugin/keyring-social-importers": "*",
     "wpackagist-plugin/widget-shortcode": "*"
   },
   "extra": {

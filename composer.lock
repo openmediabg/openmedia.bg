@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d0c1e3c4e7993e045614ada249dc0db6",
+    "hash": "ce48009c00334d84a8c37afe2fa10a4d",
     "packages": [
         {
             "name": "composer/installers",
@@ -329,17 +329,17 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973"
+                "reference": "614f0f46f81873d952684e355af7acceb85409b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/307aad2c541bbdf43183043645e186ef2cd6b973",
-                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/614f0f46f81873d952684e355af7acceb85409b9",
+                "reference": "614f0f46f81873d952684e355af7acceb85409b9",
                 "shasum": ""
             },
             "require": {
@@ -374,7 +374,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-22 13:47:45"
+            "time": "2014-07-08 12:21:33"
         },
         {
             "name": "tommusrhodus/Ebor-Popular-Posts",
@@ -423,7 +423,7 @@
             "version": "master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:openmediabg/kyte.git",
+                "url": "git@bitbucket.org:mitio/kyte.git",
                 "reference": "master"
             },
             "require": {
@@ -759,15 +759,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.0.2",
+            "version": "3.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.0.2b1"
+                "reference": "tags/3.1-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/jetpack.3.0.2.zip",
+                "url": "http://downloads.wordpress.org/plugin/jetpack.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -779,6 +779,52 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/keyring",
+            "version": "1.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/keyring/",
+                "reference": "tags/1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/keyring.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/keyring": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/keyring/"
+        },
+        {
+            "name": "wpackagist-plugin/keyring-social-importers",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/keyring-social-importers/",
+                "reference": "tags/1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/keyring-social-importers.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/keyring-social-importers": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/keyring-social-importers/"
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
@@ -957,7 +1003,8 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "tommusrhodus/kyte": 20
+        "tommusrhodus/kyte": 20,
+        "wpackagist-plugin/jetpack": 0
     },
     "platform": {
         "php": ">=5.3.2"
