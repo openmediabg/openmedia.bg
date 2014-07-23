@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "54f5b5f199e780a30f8bcbc3ebd7bfc9",
+    "hash": "c8c0fb1d30219f5c1b306569d56340f1",
     "packages": [
         {
             "name": "composer/installers",
@@ -643,6 +643,29 @@
             "homepage": "http://wordpress.org/plugins/backupwordpress/"
         },
         {
+            "name": "wpackagist-plugin/better-wp-security",
+            "version": "4.2.15",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/better-wp-security/",
+                "reference": "tags/4.2.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/better-wp-security.4.2.15.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/better-wp-security": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/better-wp-security/"
+        },
+        {
             "name": "wpackagist-plugin/column-shortcodes",
             "version": "0.6.4",
             "source": {
@@ -758,6 +781,29 @@
             "homepage": "http://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
         },
         {
+            "name": "wpackagist-plugin/google-analytics-for-wordpress",
+            "version": "4.3.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "reference": "tags/4.3.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.4.3.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/google-analytics-for-wordpress": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/google-analytics-for-wordpress/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "3.1",
             "source": {
@@ -871,6 +917,52 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/shortcodes-ultimate/"
+        },
+        {
+            "name": "wpackagist-plugin/verify-google-webmaster-tools",
+            "version": "1.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/verify-google-webmaster-tools/",
+                "reference": "tags/1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/verify-google-webmaster-tools.1.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/verify-google-webmaster-tools": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/verify-google-webmaster-tools/"
+        },
+        {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.9.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.9.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/w3-total-cache": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/w3-total-cache/"
         },
         {
             "name": "wpackagist-plugin/widget-shortcode",
