@@ -129,7 +129,7 @@
       "package": {
         "name": "tommusrhodus/kyte",
         "type": "wordpress-theme",
-        "version": "master",
+        "version": "1.1.19.1",
         "source": {
           "type": "git",
           "url": "git@bitbucket.org:openmediabg/kyte.git",
@@ -166,7 +166,7 @@
     "composer/installers": "v1.0.12",
     "wp-cli/wp-cli": "v0.14.1",
     "vlucas/phpdotenv": "~1.0.6",
-    "tommusrhodus/kyte": "dev-master",
+    "tommusrhodus/kyte": "*",
     "jetpack-photon-local-domains": "*",
     "wpackagist-theme/twentythirteen": "*",
     "wpackagist-plugin/akismet": "*",

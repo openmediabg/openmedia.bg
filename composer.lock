@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c8c0fb1d30219f5c1b306569d56340f1",
+    "hash": "90815eb8c898018fe78655625498cc72",
     "packages": [
         {
             "name": "composer/installers",
@@ -420,7 +420,7 @@
         },
         {
             "name": "tommusrhodus/kyte",
-            "version": "master",
+            "version": "1.1.19.1",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:openmediabg/kyte.git",
@@ -434,8 +434,7 @@
                 "wpackagist-plugin/contact-form-7": "*",
                 "zilla-likes": "*@dev"
             },
-            "type": "wordpress-theme",
-            "time": "2014-07-04 08:57:37"
+            "type": "wordpress-theme"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1095,7 +1094,6 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "tommusrhodus/kyte": 20,
         "wpackagist-plugin/jetpack": 0
     },
     "platform": {
