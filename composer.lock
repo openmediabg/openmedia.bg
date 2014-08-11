@@ -329,17 +329,17 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "576d8f69feec477067e91b6bd0367c113e76a1a0"
+                "reference": "090fe4eaff414d8f2171c7a4748ea868d530775f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/576d8f69feec477067e91b6bd0367c113e76a1a0",
-                "reference": "576d8f69feec477067e91b6bd0367c113e76a1a0",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/090fe4eaff414d8f2171c7a4748ea868d530775f",
+                "reference": "090fe4eaff414d8f2171c7a4748ea868d530775f",
                 "shasum": ""
             },
             "require": {
@@ -362,19 +362,17 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-15 14:15:12"
+            "time": "2014-07-28 13:20:46"
         },
         {
             "name": "tommusrhodus/Ebor-Popular-Posts",
@@ -643,15 +641,15 @@
         },
         {
             "name": "wpackagist-plugin/better-wp-security",
-            "version": "4.2.15",
+            "version": "4.3.7",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/better-wp-security/",
-                "reference": "tags/4.2.15"
+                "reference": "tags/4.3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/better-wp-security.4.2.15.zip",
+                "url": "http://downloads.wordpress.org/plugin/better-wp-security.4.3.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -689,15 +687,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "3.9",
+            "version": "3.9.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/3.9-beta"
+                "reference": "tags/3.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/contact-form-7.3.9.zip",
+                "url": "http://downloads.wordpress.org/plugin/contact-form-7.3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -758,15 +756,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.3",
+            "version": "4.3.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.3"
+                "reference": "tags/4.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -804,15 +802,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "3.1",
+            "version": "3.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/3.1-beta1"
+                "reference": "tags/3.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/jetpack.3.1.zip",
+                "url": "http://downloads.wordpress.org/plugin/jetpack.3.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -873,15 +871,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "2.0.5",
+            "version": "2.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/2.0.5"
+                "reference": "tags/2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/mailchimp-for-wp.2.0.5.zip",
+                "url": "http://downloads.wordpress.org/plugin/mailchimp-for-wp.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -896,15 +894,15 @@
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",
-            "version": "4.9.0",
+            "version": "4.9.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/shortcodes-ultimate/",
-                "reference": "tags/4.9.0"
+                "reference": "tags/4.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/shortcodes-ultimate.4.9.0.zip",
+                "url": "http://downloads.wordpress.org/plugin/shortcodes-ultimate.4.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -965,7 +963,7 @@
         },
         {
             "name": "wpackagist-plugin/widget-shortcode",
-            "version": "0.2.1",
+            "version": "0.2.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/widget-shortcode/",
@@ -1011,15 +1009,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-super-cache",
-            "version": "1.4",
+            "version": "1.4.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-super-cache/",
-                "reference": "tags/1.4"
+                "reference": "tags/1.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wp-super-cache.1.4.zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-super-cache.1.4.2.zip",
                 "reference": null,
                 "shasum": null
             },
