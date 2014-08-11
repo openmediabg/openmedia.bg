@@ -14,6 +14,8 @@ namespace :deploy do
 
     on roles(:app) do
       folders.each do |folder_to_persist|
+        next unless test "[[ -d #{release_path.join(folder_to_persist)} ]]"
+
         unless test "[[ -d #{shared_path.join(folder_to_persist)} ]] "
           execute :cp, '-r', release_path.join(folder_to_persist), shared_path.join(folder_to_persist)
         end
