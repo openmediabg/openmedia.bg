@@ -140,7 +140,6 @@
           "tommusrhodus/Ebor-Shortcodes": "*@dev",
           "tommusrhodus/Ebor-Popular-Posts": "*@dev",
           "zilla-likes": "*@dev",
-          "revslider": "*@dev",
           "wpackagist-plugin/contact-form-7": "*"
         }
       }
