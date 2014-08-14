@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8045b089a1bcf1d7f1a6646ec3b20599",
+    "hash": "293144dd18c91c29549b8d951fa5c694",
     "packages": [
         {
             "name": "composer/installers",
@@ -408,7 +408,7 @@
         },
         {
             "name": "tommusrhodus/kyte",
-            "version": "1.1.19.1",
+            "version": "1.1.19.2",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:openmediabg/kyte.git",
