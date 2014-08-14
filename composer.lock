@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b3ff16c15543c263f044eacf55e59ae",
+    "hash": "8045b089a1bcf1d7f1a6646ec3b20599",
     "packages": [
         {
             "name": "composer/installers",
@@ -471,10 +471,10 @@
         },
         {
             "name": "wordpress-bg",
-            "version": "3.9.1",
+            "version": "3.9.2",
             "dist": {
                 "type": "zip",
-                "url": "http://bg.wordpress.org/wordpress-3.9.1-bg_BG.zip",
+                "url": "http://bg.wordpress.org/wordpress-3.9.2-bg_BG.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -630,15 +630,15 @@
         },
         {
             "name": "wpackagist-plugin/better-wp-security",
-            "version": "4.3.7",
+            "version": "4.3.9",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/better-wp-security/",
-                "reference": "tags/4.3.7"
+                "reference": "tags/4.3.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/better-wp-security.4.3.7.zip",
+                "url": "http://downloads.wordpress.org/plugin/better-wp-security.4.3.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -860,15 +860,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "2.1",
+            "version": "2.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/2.1"
+                "reference": "tags/2.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/mailchimp-for-wp.2.1.zip",
+                "url": "http://downloads.wordpress.org/plugin/mailchimp-for-wp.2.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
