@@ -149,6 +149,7 @@
     "composer/installers": "v1.0.12",
     "tommusrhodus/kyte": "*",
     "jetpack-photon-local-domains": "*",
+    "wp-cli/wp-cli": "*",
     "wpackagist-theme/twentythirteen": "*",
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/backupwordpress": "*",
