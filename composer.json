@@ -157,6 +157,7 @@
     "wpackagist-plugin/column-shortcodes": "*",
     "wpackagist-plugin/cyr3lat": "*",
     "wpackagist-plugin/developer": "*",
+    "wpackagist-plugin/duplicate-post": "*",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "*",
     "wpackagist-plugin/jetpack": "*@stable",
@@ -168,6 +169,7 @@
     "wpackagist-plugin/w3-total-cache": "*",
     "wpackagist-plugin/widget-shortcode": "*",
     "wpackagist-plugin/wordpress-importer": "*",
+    "wpackagist-plugin/wp-social-seo-booster": "*",
     "wpackagist-plugin/wp-super-cache": "*",
     "wpackagist-plugin/wpremote": "*",
     "vlucas/phpdotenv": "1.0.9"

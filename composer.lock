@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bc14cb4033f810b7d508b8745fce05de",
+    "hash": "b7879086d4ec55017c763ae26ac4490e",
     "packages": [
         {
             "name": "composer/installers",
@@ -763,6 +763,26 @@
             "homepage": "https://wordpress.org/plugins/developer/"
         },
         {
+            "name": "wpackagist-plugin/duplicate-post",
+            "version": "2.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/duplicate-post/",
+                "reference": "tags/2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/duplicate-post.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-post/"
+        },
+        {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
             "version": "4.4.2",
             "source": {
@@ -981,6 +1001,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-social-seo-booster",
+            "version": "1.2.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-social-seo-booster/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-social-seo-booster.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-social-seo-booster/"
         },
         {
             "name": "wpackagist-plugin/wp-super-cache",
