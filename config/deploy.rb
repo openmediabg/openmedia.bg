@@ -6,7 +6,7 @@ set :log_level, :info
 set :keep_releases, 15
 set :linked_files, %w(.env web/.htaccess)
 set :linked_dirs, %w(web/app/uploads backups)
-set :wpcli_custom_paths_to_sync, %w(web/app/plugins/revslider/rs-plugin/css/)
+set :wpcli_custom_paths_to_sync, %w()
 
 namespace :deploy do
   desc 'Keep folders which plugins persist their files in symlinked under shared/'
