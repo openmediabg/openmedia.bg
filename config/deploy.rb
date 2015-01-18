@@ -26,22 +26,6 @@ namespace :deploy do
     end
   end
 
-  before 'deploy:updated', 'deploy:symlink_plugin_persistant_folders'
-
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      # execute :service, :nginx, :reload
-    end
-  end
-end
-
-# The above restart task is not run by default
-# Uncomment the following line to run it on deploys if needed
-# after 'deploy:publishing', 'deploy:restart'
-
-namespace :deploy do
   desc 'Update WordPress template root paths to point to the new release'
   task :update_option_paths do
     on roles(:app) do
@@ -62,7 +46,7 @@ namespace :deploy do
   end
 end
 
-# The above update_option_paths task is not run by default
 # Note that you need to have WP-CLI installed on your server
 # Uncomment the following line to run it on deploys if needed
-# after 'deploy:publishing', 'deploy:update_option_paths'
+after 'deploy:publishing', 'deploy:update_option_paths'
+before 'deploy:updated', 'deploy:symlink_plugin_persistant_folders'
