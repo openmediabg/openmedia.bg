@@ -1,0 +1,27 @@
+namespace :wpcli do
+  namespace :uploads do
+    namespace :rsync do
+      desc "Push local uploads delta to remote machine"
+      task :push_custom_paths do
+        roles(:all).each do |role|
+          run_locally do
+            fetch(:wpcli_custom_paths_to_sync).each do |path|
+              execute :rsync, fetch(:wpcli_rsync_options), path, "#{role.user}@#{role.hostname}:#{release_path}/#{path}"
+            end
+          end
+        end
+      end
+
+      desc "Pull remote uploads delta to local machine"
+      task :pull_custom_paths do
+        roles(:all).each do |role|
+          run_locally do
+            fetch(:wpcli_custom_paths_to_sync).each do |path|
+              execute :rsync, fetch(:wpcli_rsync_options), "#{role.user}@#{role.hostname}:#{release_path}/#{path}", path
+            end
+          end
+        end
+      end
+    end
+  end
+end

@@ -2,5 +2,5 @@
 
 bin_path="`dirname $0`"
 
-echo 'Fetching uplaodes and database...'
+echo 'Fetching uploads and database...'
 $bin_path/fetch-production-files && $bin_path/fetch-production-database
