@@ -7,13 +7,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/0.1\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: Twenty Thirteen\n"
 
 #: 404.php:16
 msgid "Not Found"
 msgstr "Не е намерено"
 
+#. Description of the plugin/theme
 msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
 msgstr "Темата 2013 за WordPress акцентира върху различните формати на публикациите, всеки от които е със собствен уникален стил. Темата има ярка и плътна цветова палитра с подходящи заглавни изображения, чудесна типография и икони; и гъвкава структура, която изглежда чудесно на всяко устройство, независимо от големината на екрана. "
 
@@ -21,6 +22,7 @@ msgstr "Темата 2013 за WordPress акцентира върху разл�
 msgid "Appears in the footer section of the site."
 msgstr "Появява се в най-долната секция на сайта."
 
+#. Theme URI of the plugin/theme
 msgid "http://wordpress.org/themes/twentythirteen"
 msgstr "http://wordpress.org/themes/twentythirteen"
 
@@ -48,167 +50,33 @@ msgstr "Пълен размер"
 msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Thirteen (2013) изисква поне версия 3.6 на WordPress. Вие ползвате версия %s. Моля обновете и опитайте отново."
 
-#: 404.php:21
-msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr "Нещо се обърка. Грешка 404"
+#: functions.php:218
+msgid "Page %s"
+msgstr "Страница %s"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Нищо не бе намерено на този адрес. Защо не пробвате полето за търсене?"
+#: header.php:43
+msgid "Menu"
+msgstr "Меню"
 
-#: archive.php:29
-msgid "Daily Archives: %s"
-msgstr "Архив по дни: %s"
+#: header.php:44
+msgid "Skip to content"
+msgstr "Към съдържанието"
 
-#: archive.php:31
-msgid "Monthly Archives: %s"
-msgstr "Архив по месеци: %s"
-
-#: archive.php:31
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr "F Y"
-
-#: archive.php:33
-msgid "Yearly Archives: %s"
-msgstr "Архив по години: %s"
-
-#: archive.php:33
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr "Y"
-
-#: archive.php:35
-msgid "Archives"
-msgstr "Архив"
-
-#: author-bio.php:26
-msgid "About %s"
-msgstr "За %s"
-
-#: author-bio.php:30
-msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Всички публикации от %s <span class=\"meta-nav\">&rarr;</span>"
-
-#: author.php:31
-msgid "All posts by %s"
+#: functions.php:343
+msgid "View all posts by %s"
 msgstr "Всички публикации от %s"
 
-#: category.php:19
-msgid "Category Archives: %s"
-msgstr "Архив на категория: %s"
-
-#: comments.php:25
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Едно мнение за &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s мнения за &ldquo;%2$s&rdquo;"
-
-#: comments.php:45
-msgid "Comment navigation"
-msgstr "Навигация в коментарите"
-
-#: comments.php:46
-msgid "&larr; Older Comments"
-msgstr "&larr; По-стари коментари"
-
-#: comments.php:47
-msgid "Newer Comments &rarr;"
-msgstr "По-нови коментари &rarr;"
-
-#: comments.php:52
-msgid "Comments are closed."
-msgstr "Коментарите са затворени."
-
-#: content-aside.php:13 content-audio.php:24 content-gallery.php:24
-#: content-image.php:23 content-link.php:24 content-quote.php:13
-#: content-status.php:13 content-video.php:23 content.php:41
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Има още <span class=\"meta-nav\">&rarr;</span>"
-
-#: content-aside.php:14 content-audio.php:25 content-chat.php:24
-#: content-gallery.php:25 content-image.php:24 content-link.php:25
-#: content-quote.php:14 content-status.php:14 content-video.php:24
-#: content.php:42 image.php:70 page.php:35
-msgid "Pages:"
-msgstr "Страници:"
-
-#: content-aside.php:20 content-aside.php:28 content-audio.php:31
-#: content-chat.php:29 content-gallery.php:39 content-image.php:35
-#: content-link.php:19 content-quote.php:25 content-status.php:19
-#: content-video.php:35 content.php:31 image.php:44 page.php:39
-msgid "Edit"
-msgstr "Редактиране"
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "екипа на WordPress "
 
 #: functions.php:369
 msgid "Permalink to %s"
 msgstr "Постоянна връзка към %s"
 
-#: content-gallery.php:36 content-image.php:32 content-quote.php:22
-#: content-video.php:32 content.php:49
-msgid "Leave a comment"
-msgstr "Публикуване на коментар"
-
-#: content-gallery.php:36 content-image.php:32 content-quote.php:22
-#: content-video.php:32 content.php:49
-msgid "One comment so far"
-msgstr "Един коментар до момента"
-
-#: content-gallery.php:36 content-image.php:32 content-quote.php:22
-#: content-video.php:32 content.php:49
-msgid "View all % comments"
-msgstr "Преглед на всичките % коментара"
-
-#: content-none.php:12
-msgid "Nothing Found"
-msgstr "Нищо не е открито"
-
-#: content-none.php:18
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Време е за първата ви публикация. <a href=\"%1$s\">Започнете от тук</a>."
-
-#: content-none.php:22
-msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
-msgstr "Търсенето не върна резултат. Опитайте отново с различни ключови думи?"
-
-#: content-none.php:27
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Страницата не съществува. Пробвайте да потърсете това, което ви трябва."
-
-#: footer.php:19
-msgid "http://wordpress.org/"
-msgstr "http://bg.wordpress.org/"
-
-#: footer.php:19
-msgid "Semantic Personal Publishing Platform"
-msgstr "Семантична система за публикуване"
-
-#: footer.php:19
-msgid "Proudly powered by %s"
-msgstr "Създаден с %s"
-
-#: functions.php:97
-msgid "Navigation Menu"
-msgstr "Меню за навигация"
-
-#: functions.php:128
-msgctxt "Source Sans Pro font: on or off"
-msgid "on"
-msgstr "off"
-
-#: functions.php:134
-msgctxt "Bitter font: on or off"
-msgid "on"
-msgstr "off"
-
-#: functions.php:218
-msgid "Page %s"
-msgstr "Страница %s"
-
-#: functions.php:266
-msgid "Posts navigation"
-msgstr "Меню на публикациите"
+#: functions.php:300
+msgid "Post navigation"
+msgstr "Навигация в публикациите"
 
 #: functions.php:270
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
@@ -218,9 +86,136 @@ msgstr "<span class=\"meta-nav\">&larr;</span> По-стари публикац�
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "По-нови публикации <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:300
-msgid "Post navigation"
-msgstr "Навигация в публикациите"
+#: content-aside.php:27 content-aside.php:35 content-audio.php:38
+#: content-chat.php:36 content-gallery.php:46 content-image.php:42
+#: content-link.php:19 content-quote.php:32 content-status.php:26
+#: content-video.php:42 content.php:31 image.php:44 page.php:39
+msgid "Edit"
+msgstr "Редактиране"
+
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr "По-нови коментари &rarr;"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Коментарите са затворени."
+
+#: author-bio.php:26
+msgid "About %s"
+msgstr "За %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "Архив за етикет: %s"
+
+#: category.php:19
+msgid "Category Archives: %s"
+msgstr "Архив на категория: %s"
+
+#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 1.4)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:19
+msgid "http://wordpress.org/"
+msgstr "http://bg.wordpress.org/"
+
+#: footer.php:19
+msgid "Semantic Personal Publishing Platform"
+msgstr "Семантична система за публикуване"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Нищо не е открито"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "Навигация в коментарите"
+
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr "&larr; По-стари коментари"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:328 functions.php:334
+msgid ", "
+msgstr ", "
+
+#: content-aside.php:20 content-audio.php:31 content-chat.php:30
+#: content-gallery.php:31 content-image.php:30 content-link.php:31
+#: content-quote.php:20 content-status.php:20 content-video.php:30
+#: content.php:48 image.php:70 page.php:35
+msgid "Pages:"
+msgstr "Страници:"
+
+#: author-bio.php:30
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Всички публикации от %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: author.php:31
+msgid "All posts by %s"
+msgstr "Всички публикации от %s"
+
+#: comments.php:25
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Едно мнение за &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s мнения за &ldquo;%2$s&rdquo;"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Source Sans Pro, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:128
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "off"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Bitter, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:134
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr "off"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Thirteen"
+msgstr "Twenty Thirteen"
+
+#: functions.php:322
+msgid "Sticky"
+msgstr "Залепени"
+
+#: inc/custom-header.php:49
+msgctxt "header image description"
+msgid "Circle"
+msgstr "Кръгове"
+
+#: functions.php:97
+msgid "Navigation Menu"
+msgstr "Меню за навигация"
+
+#: image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предишна"
+
+#: image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следваща <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:266
+msgid "Posts navigation"
+msgstr "Меню на публикациите"
 
 #: functions.php:303
 msgctxt "Previous post link"
@@ -232,72 +227,84 @@ msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:322
-msgid "Sticky"
-msgstr "Залепени"
+#: taxonomy-post_format.php:23
+msgid "%s Archives"
+msgstr "%s Архив"
 
-#: functions.php:328 functions.php:334
-msgid ", "
-msgstr ", "
-
-#: functions.php:343
-msgid "View all posts by %s"
-msgstr "Всички публикации от %s"
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Търсенето не върна резултат. Опитайте отново с различни ключови думи?"
 
 #: functions.php:363
 msgctxt "1: post format name. 2: date"
 msgid "%1$s on %2$s"
 msgstr "%1$s от %2$s"
 
-#: header.php:43
-msgid "Menu"
-msgstr "Меню"
-
-#: header.php:44
-msgid "Skip to content"
-msgstr "Към съдържанието"
-
-#: image.php:22
-msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
-msgstr "<span class=\"attachment-meta\">Публикувано на <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> в <a href=\"%3$s\" title=\"Назад към %4$s\" rel=\"gallery\">%5$s</a></span>"
-
-#: image.php:51
-msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr "<span class=\"meta-nav\">&larr;</span> Предишна"
-
-#: image.php:52
-msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Следваща <span class=\"meta-nav\">&rarr;</span>"
-
-#: inc/custom-header.php:49
+#: inc/custom-header.php:59
 msgctxt "header image description"
-msgid "Circle"
-msgstr "Кръгове"
+msgid "Star"
+msgstr "Звезда"
 
 #: inc/custom-header.php:54
 msgctxt "header image description"
 msgid "Diamond"
 msgstr "Диамант"
 
-#: inc/custom-header.php:59
-msgctxt "header image description"
-msgid "Star"
-msgstr "Звезда"
+#: image.php:22
+msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr "<span class=\"attachment-meta\">Публикувано на <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> в <a href=\"%3$s\" title=\"Назад към %4$s\" rel=\"gallery\">%5$s</a></span>"
+
+#: 404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Нещо се обърка. Грешка 404"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Нищо не бе намерено на този адрес. Защо не пробвате полето за търсене?"
+
+#: content-gallery.php:43 content-image.php:39 content-quote.php:29
+#: content-video.php:39 content.php:56
+msgid "Leave a comment"
+msgstr "Публикуване на коментар"
+
+#: content-gallery.php:43 content-image.php:39 content-quote.php:29
+#: content-video.php:39 content.php:56
+msgid "One comment so far"
+msgstr "Един коментар до момента"
+
+#: content-gallery.php:43 content-image.php:39 content-quote.php:29
+#: content-video.php:39 content.php:56
+msgid "View all % comments"
+msgstr "Преглед на всичките % коментара"
+
+#: content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Време е за първата ви публикация. <a href=\"%1$s\">Започнете от тук</a>."
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Страницата не съществува. Пробвайте да потърсете това, което ви трябва."
 
 #: search.php:18
 msgid "Search Results for: %s"
 msgstr "Резултати от търсене за: %s"
 
-#: tag.php:21
-msgid "Tag Archives: %s"
-msgstr "Архив за етикет: %s"
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr "Създаден с %s"
 
-#: taxonomy-post_format.php:23
-msgid "%s Archives"
-msgstr "%s Архив"
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "Архив по месеци: %s"
 
-msgid "Twenty Thirteen"
-msgstr "Twenty Thirteen"
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "Архив по дни: %s"
 
-msgid "the WordPress team"
-msgstr "екипа на WordPress "
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "Архив по години: %s"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "Архив"
