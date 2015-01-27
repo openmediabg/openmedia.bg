@@ -7,6 +7,8 @@ set :keep_releases, 15
 set :linked_files, %w(.env web/.htaccess)
 set :linked_dirs, %w(web/app/uploads backups)
 set :wpcli_custom_paths_to_sync, %w()
+set :wpcli_remote_url, "openmedia.bg"
+set :wpcli_local_url, "openmedia.dev"
 
 namespace :deploy do
   desc 'Keep folders which plugins persist their files in symlinked under shared/'
