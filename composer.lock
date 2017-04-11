@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7879086d4ec55017c763ae26ac4490e",
+    "content-hash": "e544bbc48c017c024ac9a803ed04603a",
     "packages": [
         {
             "name": "composer/installers",
@@ -88,7 +88,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-02-24 04:21:34"
+            "time": "2014-02-24T04:21:34+00:00"
         },
         {
             "name": "jetpack-photon-local-domains",
@@ -102,20 +102,58 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.1",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "fced41fbfeb6b6a1f48f505426da0cb392d44274"
+                "reference": "ac7502ec944671e5d10880038a8f443ea9be5e2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fced41fbfeb6b6a1f48f505426da0cb392d44274",
-                "reference": "fced41fbfeb6b6a1f48f505426da0cb392d44274",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ac7502ec944671e5d10880038a8f443ea9be5e2f",
+                "reference": "ac7502ec944671e5d10880038a8f443ea9be5e2f",
                 "shasum": ""
             },
             "require": {
+                "johnpbloch/wordpress-core": "4.1.0",
                 "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-03-18T04:47:53+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "b44d88ba8c977001131ca8294f98098aad22cd0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/b44d88ba8c977001131ca8294f98098aad22cd0c",
+                "reference": "b44d88ba8c977001131ca8294f98098aad22cd0c",
+                "shasum": ""
+            },
+            "require": {
                 "php": ">=5.3.2"
             },
             "type": "wordpress-core",
@@ -133,26 +171,27 @@
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
-                "cms"
+                "cms",
+                "wordpress"
             ],
-            "time": "2014-12-18 18:31:41"
+            "time": "2017-02-12T04:26:29+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "a4c08e91be99e858c7778c2f52a4d73820147c2e"
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a4c08e91be99e858c7778c2f52a4d73820147c2e",
-                "reference": "a4c08e91be99e858c7778c2f52a4d73820147c2e",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "conflict": {
                 "composer/installers": "<1.0.6"
@@ -180,7 +219,10 @@
                 }
             ],
             "description": "A custom installer to handle deploying WordPress with composer",
-            "time": "2013-09-09 15:04:54"
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-06-11T15:15:30+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -225,7 +267,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2014-08-26 19:50:10"
+            "time": "2014-08-26T19:50:10+00:00"
         },
         {
             "name": "nb/oxymel",
@@ -266,7 +308,7 @@
             "keywords": [
                 "xml"
             ],
-            "time": "2013-02-24 15:01:54"
+            "time": "2013-02-24T15:01:54+00:00"
         },
         {
             "name": "rhumsaa/array_column",
@@ -306,7 +348,8 @@
                 "array_column",
                 "column"
             ],
-            "time": "2013-07-22 16:12:38"
+            "abandoned": "ramsey/array_column",
+            "time": "2013-07-22T16:12:38+00:00"
         },
         {
             "name": "rmccue/requests",
@@ -355,7 +398,7 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2014-05-18 04:59:02"
+            "time": "2014-05-18T04:59:02+00:00"
         },
         {
             "name": "symfony/finder",
@@ -402,7 +445,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-03 08:01:59"
+            "time": "2015-01-03T08:01:59+00:00"
         },
         {
             "name": "tommusrhodus/Ebor-Popular-Posts",
@@ -512,7 +555,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2014-10-16 14:50:21"
+            "time": "2014-10-16T14:50:21+00:00"
         },
         {
             "name": "wp-cli/php-cli-tools",
@@ -562,7 +605,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2014-12-03 15:45:28"
+            "time": "2014-12-03T15:45:28+00:00"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -620,20 +663,20 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2015-01-14 14:10:29"
+            "time": "2015-01-14T14:10:29+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
             "version": "3.0.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/akismet/",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
                 "reference": "tags/3.0.4"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/akismet.3.0.4.zip",
-                "reference": null,
+                "reference": "tags/3.0.4",
                 "shasum": null
             },
             "require": {
@@ -647,13 +690,13 @@
             "version": "3.1.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/backupwordpress/",
+                "url": "https://plugins.svn.wordpress.org/backupwordpress/",
                 "reference": "tags/3.1.1"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/backupwordpress.3.1.1.zip",
-                "reference": null,
+                "reference": "tags/3.1.1",
                 "shasum": null
             },
             "require": {
@@ -687,13 +730,13 @@
             "version": "0.6.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/column-shortcodes/",
+                "url": "https://plugins.svn.wordpress.org/column-shortcodes/",
                 "reference": "tags/0.6.6"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/column-shortcodes.0.6.6.zip",
-                "reference": null,
+                "reference": "tags/0.6.6",
                 "shasum": null
             },
             "require": {
@@ -707,13 +750,13 @@
             "version": "4.0.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/contact-form-7/",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
                 "reference": "tags/4.0.3"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/contact-form-7.4.0.3.zip",
-                "reference": null,
+                "reference": "tags/4.0.3",
                 "shasum": null
             },
             "require": {
@@ -727,13 +770,13 @@
             "version": "3.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/cyr3lat/",
+                "url": "https://plugins.svn.wordpress.org/cyr3lat/",
                 "reference": "tags/3.5"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/cyr3lat.3.5.zip",
-                "reference": null,
+                "reference": "tags/3.5",
                 "shasum": null
             },
             "require": {
@@ -747,13 +790,13 @@
             "version": "1.2.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/developer/",
+                "url": "https://plugins.svn.wordpress.org/developer/",
                 "reference": "tags/1.2.5"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/developer.1.2.5.zip",
-                "reference": null,
+                "reference": "tags/1.2.5",
                 "shasum": null
             },
             "require": {
@@ -767,13 +810,13 @@
             "version": "2.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/duplicate-post/",
+                "url": "https://plugins.svn.wordpress.org/duplicate-post/",
                 "reference": "tags/2.6"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/duplicate-post.2.6.zip",
-                "reference": null,
+                "reference": "tags/2.6",
                 "shasum": null
             },
             "require": {
@@ -787,13 +830,13 @@
             "version": "4.4.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
                 "reference": "tags/4.4.2"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.4.2.zip",
-                "reference": null,
+                "reference": "tags/4.4.2",
                 "shasum": null
             },
             "require": {
@@ -807,13 +850,13 @@
             "version": "5.2.8",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
                 "reference": "tags/5.2.8"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.2.8.zip",
-                "reference": null,
+                "reference": "tags/5.2.8",
                 "shasum": null
             },
             "require": {
@@ -847,13 +890,13 @@
             "version": "1.6.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/keyring/",
+                "url": "https://plugins.svn.wordpress.org/keyring/",
                 "reference": "tags/1.6.1"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/keyring.1.6.1.zip",
-                "reference": null,
+                "reference": "tags/1.6.1",
                 "shasum": null
             },
             "require": {
@@ -867,13 +910,13 @@
             "version": "1.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/keyring-social-importers/",
+                "url": "https://plugins.svn.wordpress.org/keyring-social-importers/",
                 "reference": "tags/1.4"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/keyring-social-importers.1.4.zip",
-                "reference": null,
+                "reference": "tags/1.4",
                 "shasum": null
             },
             "require": {
@@ -887,13 +930,13 @@
             "version": "2.2.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
                 "reference": "tags/2.2.2"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/mailchimp-for-wp.2.2.2.zip",
-                "reference": null,
+                "reference": "tags/2.2.2",
                 "shasum": null
             },
             "require": {
@@ -907,13 +950,13 @@
             "version": "4.9.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/shortcodes-ultimate/",
+                "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate/",
                 "reference": "tags/4.9.3"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/shortcodes-ultimate.4.9.3.zip",
-                "reference": null,
+                "reference": "tags/4.9.3",
                 "shasum": null
             },
             "require": {
@@ -927,13 +970,13 @@
             "version": "1.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/verify-google-webmaster-tools/",
+                "url": "https://plugins.svn.wordpress.org/verify-google-webmaster-tools/",
                 "reference": "tags/1.3"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/verify-google-webmaster-tools.1.3.zip",
-                "reference": null,
+                "reference": "tags/1.3",
                 "shasum": null
             },
             "require": {
@@ -947,13 +990,13 @@
             "version": "0.9.4.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/w3-total-cache/",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
                 "reference": "tags/0.9.4.1"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
-                "reference": null,
+                "reference": "tags/0.9.4.1",
                 "shasum": null
             },
             "require": {
@@ -987,13 +1030,13 @@
             "version": "0.6.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
                 "reference": "tags/0.6.1"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
-                "reference": null,
+                "reference": "tags/0.6.1",
                 "shasum": null
             },
             "require": {
@@ -1007,13 +1050,13 @@
             "version": "1.2.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-social-seo-booster/",
+                "url": "https://plugins.svn.wordpress.org/wp-social-seo-booster/",
                 "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wp-social-seo-booster.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1027,13 +1070,13 @@
             "version": "1.4.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-super-cache/",
+                "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
                 "reference": "tags/1.4.2"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wp-super-cache.1.4.2.zip",
-                "reference": null,
+                "reference": "tags/1.4.2",
                 "shasum": null
             },
             "require": {
@@ -1047,13 +1090,13 @@
             "version": "2.7.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wpremote/",
+                "url": "https://plugins.svn.wordpress.org/wpremote/",
                 "reference": "tags/2.7.6"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wpremote.2.7.6.zip",
-                "reference": null,
+                "reference": "tags/2.7.6",
                 "shasum": null
             },
             "require": {
@@ -1067,13 +1110,13 @@
             "version": "1.4",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentythirteen/",
+                "url": "https://themes.svn.wordpress.org/twentythirteen/",
                 "reference": "1.4"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://wordpress.org/themes/download/twentythirteen.1.4.zip",
-                "reference": null,
+                "reference": "1.4",
                 "shasum": null
             },
             "require": {
