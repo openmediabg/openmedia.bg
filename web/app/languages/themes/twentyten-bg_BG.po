@@ -2,43 +2,90 @@
 # This file is distributed under the same license as the Twenty Ten package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-09-15 14:14:25+0000\n"
+"PO-Revision-Date: 2016-04-12 14:55:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
 "Project-Id-Version: Twenty Ten\n"
 
-#. Theme URI of the plugin/theme
-msgid "http://wordpress.org/themes/twentyten"
-msgstr "http://wordpress.org/themes/twentyten"
+#. Description of the plugin/theme
+msgid "The 2010 theme for WordPress is stylish, customizable, simple, and readable -- make it yours with a custom menu, header image, and background. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It includes stylesheets for print and the admin Visual Editor, special styles for posts in the \"Asides\" and \"Gallery\" categories, and has an optional one-column page template that removes the sidebar."
+msgstr "Темата 2010 е стилна, гъвкава, проста и четима – направете я ваша със собствено меню, заглавна картинка и фон. Две хиляди и десет поддържа шест зони за джаджи (две в страничната лента, 4 в долната част) и картинки на публикации (една картинка за галериите или заглавна картинка за другите публикации и страници). Включва стилове за отпечатване, за визуалния редактор в административния панел, специални стилове за специалните категории „Малки“ и „Галерии“ и доплънителен изборен стил за страниците, в който няма странична лента."
 
-#: functions.php:425
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Добавете тук джаджи, които да се показват в страничната ви лента."
-
-#: functions.php:436
-msgid "An optional secondary widget area, displays below the primary widget area in your sidebar."
-msgstr "Втора незадължителна област за джаджи, която се показва под основната в страничната ви лента."
-
-#: functions.php:447 functions.php:458 functions.php:469 functions.php:480
-msgid "An optional widget area for your site footer."
-msgstr "Незадължителна област за джаджи във футъра на вашият сайт."
+#. Theme Name of the plugin/theme
+msgid "Twenty Ten"
+msgstr "Две хиляди и десета"
 
 #. Template Name of the plugin/theme
 msgid "One column, no sidebar"
 msgstr "Една колона, без странична лента"
 
-#: archive.php:38
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr "Y"
+#: tag.php:16
+msgid "Tag Archives: %s"
+msgstr "Архив за етитет: %s"
 
-#: archive.php:36
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr "F Y"
+#: sidebar.php:35
+msgid "Meta"
+msgstr "Мета"
+
+#: sidebar.php:28
+msgid "Archives"
+msgstr "Архиви"
+
+#: search.php:29
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Нищо не отговаря на критериите ви. Моля опитайте отново с различни ключови думи."
+
+#: search.php:27
+msgid "Nothing Found"
+msgstr "Нищо не е открито"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Резултати от търсене на: %s"
+
+#: loop.php:161
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Етикети:</span> %2$s"
+
+#: loop.php:152
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Публикувано в</span> %2$s"
+
+#: loop.php:107
+msgctxt "asides category slug"
+msgid "asides"
+msgstr "asides"
+
+#: loop.php:100 loop.php:123 loop.php:165
+msgid "% Comments"
+msgstr "% коментара"
+
+#: loop.php:100 loop.php:123 loop.php:165
+msgid "1 Comment"
+msgstr "1 коментар"
+
+#: loop.php:100 loop.php:123 loop.php:165
+msgid "Leave a comment"
+msgstr "Вашият коментар"
+
+#: loop.php:97
+msgid "View posts in the Gallery category"
+msgstr "Прегледайте публикациите в категория Галерия"
+
+#: loop.php:94 loop.php:97
+msgid "More Galleries"
+msgstr "Още галерии"
+
+#: loop.php:94
+msgid "View Galleries"
+msgstr "Преглед на галериите"
+
+#: loop.php:84
+msgid "Permalink to %s"
+msgstr "Постоянна връзка към %s"
 
 #: loop.php:83
 msgid "This gallery contains <a %1$s>%2$s photo</a>."
@@ -46,134 +93,26 @@ msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
 msgstr[0] "Галерията съдържа <a %1$s>%2$s снимка</a>."
 msgstr[1] "Галерията съдържа <a %1$s>%2$s снимки</a>."
 
-#: loop.php:94
-msgid "View Galleries"
-msgstr "Преглед на галериите"
-
-#. Description of the plugin/theme
-msgid "The 2010 theme for WordPress is stylish, customizable, simple, and readable -- make it yours with a custom menu, header image, and background. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It includes stylesheets for print and the admin Visual Editor, special styles for posts in the \"Asides\" and \"Gallery\" categories, and has an optional one-column page template that removes the sidebar."
-msgstr "Темата 2010 е стилна, гъвкава, проста и четима – направете я ваша със собствено меню, заглавна картинка и фон. Две хиляди и десет поддържа шест зони за джаджи (две в страничната лента, 4 в долната част) и картинки на публикации (една картинка за галериите или заглавна картинка за другите публикации и страници). Включва стилове за отпечатване, за визуалния редактор в административния панел, специални стилове за специалните категории „Малки“ и „Галерии“ и доплънителен изборен стил за страниците, в който няма странична лента."
-
-#: loop.php:152
-msgid "<span class=\"%1$s\">Posted in</span> %2$s"
-msgstr "<span class=\"%1$s\">Публикувано в</span> %2$s"
-
-#: functions.php:514
-msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
-msgstr "<span class=\"%1$s\">Публикувано на</span> %2$s <span class=\"meta-sep\">от</span> %3$s"
-
-#: loop.php:161
-msgid "<span class=\"%1$s\">Tagged</span> %2$s"
-msgstr "<span class=\"%1$s\">Етикети:</span> %2$s"
-
-#: functions.php:544
-msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr "<a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
-
-#: comments.php:42 comments.php:62
-msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr "<span class=\"meta-nav\">&larr;</span> По-стари коментари"
-
-#. translators: %s - title of parent post
-#: loop-attachment.php:23
-msgid "<span class=\"meta-nav\">&larr;</span> %s"
-msgstr "<span class=\"meta-nav\">&larr;</span> %s"
-
-#: loop-single.php:50
-msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Всички публикации от %s <span class=\"meta-nav\">&rarr;</span>"
-
-#: comments.php:43 comments.php:63
-msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr "По-нови коментари <span class=\"meta-nav\">&rarr;</span>"
-
-#: functions.php:95
-msgid "Primary Navigation"
-msgstr "Основна навигация"
-
-#: loop.php:35
-msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
-msgstr "Няма резултати за търсения архив. Може би търсачката ще ви помогне да откриете подобна публикация."
-
-#: author.php:28
-msgid "Author Archives: %s"
-msgstr "Архив на: %s"
-
-#: functions.php:376
-msgid "%s <span class=\"says\">says:</span>"
-msgstr "%s <span class=\"says\">каза:</span>"
-
-#: loop-attachment.php:32
-msgid "<span class=\"%1$s\">By</span> %2$s"
-msgstr "<span class=\"%1$s\">От</span> %2$s"
-
-#: loop-attachment.php:43
-msgid "<span class=\"%1$s\">Published</span> %2$s"
-msgstr "<span class=\"%1$s\">Публикувано на</span> %2$s"
-
-#: loop-attachment.php:53
-msgid "Full size is %s pixels"
-msgstr "Пълният размер е %s пиксела"
-
-#: loop-attachment.php:56
-msgid "Link to full-size image"
-msgstr "Връзка към изображението в пълен размер"
-
-#: functions.php:403
-msgid "Pingback:"
-msgstr "Pingback:"
-
-#: footer.php:40
-msgid "Proudly powered by %s."
-msgstr "Задвижвано с гордост от %s."
-
-#: functions.php:540
-msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr "Публикувано в %1$s с етикети %2$s. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
-
-#: functions.php:542
-msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr "Публикувано в %1$s. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
-
-#: comments.php:36
-msgid "One Response to %2$s"
-msgid_plural "%1$s Responses to %2$s"
-msgstr[0] "Един коментар по %2$s"
-msgstr[1] "%1$s коментара по %2$s"
-
-#: loop.php:107
-msgctxt "asides category slug"
-msgid "asides"
-msgstr "asides"
-
 #: loop.php:62 loop.php:96
 msgctxt "gallery category slug"
 msgid "gallery"
 msgstr "gallery"
 
-#: functions.php:456
-msgid "Second Footer Widget Area"
-msgstr "Втора зона за джаджи в долната част на сайта"
+#: loop.php:35
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Няма резултати за търсения архив. Може би търсачката ще ви помогне да откриете подобна публикация."
 
-#: functions.php:445
-msgid "First Footer Widget Area"
-msgstr "Първа зона за джаджи в долната част на сайта"
+#: loop.php:26 loop.php:180
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "По-нови публикации <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:423
-msgid "Primary Widget Area"
-msgstr "Основна зона за джаджи"
+#: loop.php:25 loop.php:179
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> По-стари публикации"
 
-#: functions.php:434
-msgid "Secondary Widget Area"
-msgstr "Втора зона за джаджи"
-
-#: functions.php:478
-msgid "Fourth Footer Widget Area"
-msgstr "Четвърта зона за джаджи в долната част на сайта"
-
-#: functions.php:467
-msgid "Third Footer Widget Area"
-msgstr "Трета зона за джаджи в долната част на сайта"
+#: loop-single.php:50
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Всички публикации от %s <span class=\"meta-nav\">&rarr;</span>"
 
 #: loop-single.php:22 loop-single.php:65
 msgctxt "Next post link"
@@ -185,34 +124,158 @@ msgctxt "Previous post link"
 msgid "&larr;"
 msgstr "&larr;"
 
-#: sidebar.php:28
-msgid "Archives"
-msgstr "Архиви"
+#: loop-attachment.php:120 loop-page.php:29 loop-single.php:34 loop.php:145
+msgid "Pages:"
+msgstr "Страници:"
 
-#: search.php:16
-msgid "Search Results for: %s"
-msgstr "Резултати от търсене на: %s"
+#: loop-attachment.php:63 loop-attachment.php:126 loop-page.php:30
+#: loop-single.php:59 loop.php:101 loop.php:124 loop.php:166
+msgid "Edit"
+msgstr "Редактиране"
 
-#: search.php:27
-msgid "Nothing Found"
-msgstr "Нищо не е открито"
+#: loop-attachment.php:56
+msgid "Link to full-size image"
+msgstr "Връзка към изображението в пълен размер"
+
+#: loop-attachment.php:53
+msgid "Full size is %s pixels"
+msgstr "Пълният размер е %s пиксела"
+
+#: loop-attachment.php:43
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr "<span class=\"%1$s\">Публикувано на</span> %2$s"
+
+#: loop-attachment.php:32
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr "<span class=\"%1$s\">От</span> %2$s"
+
+#. translators: %s - title of parent post
+#: loop-attachment.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+#: loop-attachment.php:21
+msgid "Return to %s"
+msgstr "Назад към %s"
+
+#: header.php:105
+msgid "Skip to content"
+msgstr "Към съдържанието"
+
+#: header.php:33
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: functions.php:544
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "<a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
+
+#: functions.php:542
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Публикувано в %1$s. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
+
+#: functions.php:540
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Публикувано в %1$s с етикети %2$s. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
+
+#: functions.php:523 loop-attachment.php:36
+msgid "View all posts by %s"
+msgstr "Всички публикации от %s"
+
+#: functions.php:514
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr "<span class=\"%1$s\">Публикувано на</span> %2$s <span class=\"meta-sep\">от</span> %3$s"
+
+#: functions.php:478
+msgid "Fourth Footer Widget Area"
+msgstr "Четвърта зона за джаджи в долната част на сайта"
+
+#: functions.php:467
+msgid "Third Footer Widget Area"
+msgstr "Трета зона за джаджи в долната част на сайта"
+
+#: functions.php:456
+msgid "Second Footer Widget Area"
+msgstr "Втора зона за джаджи в долната част на сайта"
+
+#: functions.php:447 functions.php:458 functions.php:469 functions.php:480
+msgid "An optional widget area for your site footer."
+msgstr "Незадължителна област за джаджи във футъра на вашият сайт."
+
+#: functions.php:445
+msgid "First Footer Widget Area"
+msgstr "Първа зона за джаджи в долната част на сайта"
+
+#: functions.php:436
+msgid "An optional secondary widget area, displays below the primary widget area in your sidebar."
+msgstr "Втора незадължителна област за джаджи, която се показва под основната в страничната ви лента."
+
+#: functions.php:434
+msgid "Secondary Widget Area"
+msgstr "Втора зона за джаджи"
+
+#: functions.php:425
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Добавете тук джаджи, които да се показват в страничната ви лента."
+
+#: functions.php:423
+msgid "Primary Widget Area"
+msgstr "Основна зона за джаджи"
+
+#: functions.php:403
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:386 functions.php:403
+msgid "(Edit)"
+msgstr "(Редактиране)"
+
+#. translators: 1: date, 2: time
+#: functions.php:386
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:379
+msgid "Your comment is awaiting moderation."
+msgstr "Коментарът ви очаква одобрение."
+
+#: functions.php:376
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">каза:</span>"
+
+#: functions.php:280 loop-attachment.php:119 loop.php:116 loop.php:144
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Има още <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: header image description
+#: functions.php:207
+msgid "Sunset"
+msgstr "Залез"
 
 #. translators: header image description
 #: functions.php:201
 msgid "Path"
 msgstr "Път"
 
-#: archive.php:36
-msgid "Monthly Archives: <span>%s</span>"
-msgstr "Месечен архив: <span>%s</span>"
+#. translators: header image description
+#: functions.php:195
+msgid "Inkwell"
+msgstr "Мастилница"
 
-#: 404.php:16 loop.php:33
-msgid "Not Found"
-msgstr "Не е намерено"
+#. translators: header image description
+#: functions.php:189
+msgid "Forest Floor"
+msgstr "Горска постеля"
 
-#: author.php:47 loop-single.php:46
-msgid "About %s"
-msgstr "За %s"
+#. translators: header image description
+#: functions.php:183
+msgid "Fern"
+msgstr "Папрат"
+
+#. translators: header image description
+#: functions.php:177
+msgid "Concave"
+msgstr "Свод"
 
 #. translators: header image description
 #: functions.php:171
@@ -224,159 +287,96 @@ msgstr "Цветове на череша"
 msgid "Berries"
 msgstr "Плодове"
 
-#: header.php:33
-msgid "Page %s"
-msgstr "Страница %s"
+#: functions.php:95
+msgid "Primary Navigation"
+msgstr "Основна навигация"
 
-#: archive.php:38
-msgid "Yearly Archives: <span>%s</span>"
-msgstr "Годишен архив: <span>%s</span>"
-
-#: loop.php:100 loop.php:123 loop.php:165
-msgid "1 Comment"
-msgstr "1 коментар"
-
-#: archive.php:34
-msgid "Daily Archives: <span>%s</span>"
-msgstr "Дневен архив: <span>%s</span>"
-
-#: category.php:16
-msgid "Category Archives: %s"
-msgstr "Архив на категория: %s"
-
-#: loop.php:97
-msgid "View posts in the Gallery category"
-msgstr "Прегледайте публикациите в категория Галерия"
-
-#. translators: header image description
-#: functions.php:207
-msgid "Sunset"
-msgstr "Залез"
-
-#. translators: header image description
-#: functions.php:183
-msgid "Fern"
-msgstr "Папрат"
-
-#. translators: 1: date, 2: time
-#: functions.php:386
-msgid "%1$s at %2$s"
-msgstr "%1$s в %2$s"
-
-#: loop.php:100 loop.php:123 loop.php:165
-msgid "% Comments"
-msgstr "% Коментара"
-
-#. translators: header image description
-#: functions.php:189
-msgid "Forest Floor"
-msgstr "Горска постеля"
-
-#: archive.php:40
-msgid "Blog Archives"
-msgstr "Архив на блога"
-
-#: sidebar.php:35
-msgid "Meta"
-msgstr "Служебни"
-
-#: loop-attachment.php:63 loop-attachment.php:126 loop-page.php:30
-#: loop-single.php:59 loop.php:101 loop.php:124 loop.php:166
-msgid "Edit"
-msgstr "Редактиране"
-
-#: loop.php:94 loop.php:97
-msgid "More Galleries"
-msgstr "Още галерии"
-
-#: functions.php:523 loop-attachment.php:36
-msgid "View all posts by %s"
-msgstr "Всички публикации от %s"
-
-#: functions.php:386 functions.php:403
-msgid "(Edit)"
-msgstr "(Редактиране)"
-
-#: functions.php:379
-msgid "Your comment is awaiting moderation."
-msgstr "Коментарът ви очаква одобрение."
-
-#. translators: header image description
-#: functions.php:195
-msgid "Inkwell"
-msgstr "Мастилница"
-
-#. translators: header image description
-#: functions.php:177
-msgid "Concave"
-msgstr "Свод"
+#: footer.php:40
+msgid "Proudly powered by %s."
+msgstr "Задвижвано с гордост от %s."
 
 #: footer.php:40
 msgid "Semantic Personal Publishing Platform"
 msgstr "Семантична система за публикуване"
 
-#: loop.php:100 loop.php:123 loop.php:165
-msgid "Leave a comment"
-msgstr "Коментирайте"
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "Коментари са забранени."
 
-#: loop.php:84
-msgid "Permalink to %s"
-msgstr "Постоянна връзка към %s"
+#: comments.php:43 comments.php:63
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "По-нови коментари <span class=\"meta-nav\">&rarr;</span>"
 
-#: loop.php:26 loop.php:180
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "По-нови публикации <span class=\"meta-nav\">&rarr;</span>"
+#: comments.php:42 comments.php:62
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> По-стари коментари"
 
-#: loop.php:25 loop.php:179
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> По-стари публикации"
-
-#: header.php:105
-msgid "Skip to content"
-msgstr "Към съдържанието"
+#: comments.php:36
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "1 отговор към %2$s"
+msgstr[1] "%1$s отговора към %2$s"
 
 #: comments.php:18
 msgid "This post is password protected. Enter the password to view any comments."
 msgstr "Тази публикация е защитена с парола. Моля въведете паролата, за да видите коментарите."
 
+#: category.php:16
+msgid "Category Archives: %s"
+msgstr "Архив на категория: %s"
+
+#: author.php:47 loop-single.php:46
+msgid "About %s"
+msgstr "За %s"
+
+#: author.php:28
+msgid "Author Archives: %s"
+msgstr "Архив на: %s"
+
+#: archive.php:40
+msgid "Blog Archives"
+msgstr "Архив на блога"
+
+#: archive.php:38
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:38
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Годишен архив: <span>%s</span>"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:36
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Месечен архив: <span>%s</span>"
+
+#: archive.php:34
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Дневен архив: <span>%s</span>"
+
 #: 404.php:18
 msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
 msgstr "Страницата, която търсите не може да бъде открита. Може би търсачката ще ви помогне."
 
-#: loop-attachment.php:21
-msgid "Return to %s"
-msgstr "Назад към %s"
+#: 404.php:16 loop.php:33
+msgid "Not Found"
+msgstr "Не е намерено"
 
-#: functions.php:280 loop-attachment.php:119 loop.php:116 loop.php:144
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Има още <span class=\"meta-nav\">&rarr;</span>"
-
-#: loop-attachment.php:120 loop-page.php:29 loop-single.php:34 loop.php:145
-msgid "Pages:"
-msgstr "Страници:"
-
-#: tag.php:16
-msgid "Tag Archives: %s"
-msgstr "Архив за етитет: %s"
-
-#. Theme Name of the plugin/theme
-msgid "Twenty Ten"
-msgstr "Две хиляди и десета"
-
-#. #-#-#-#-#  twentyten.pot (Twenty Ten 1.8)  #-#-#-#-#
+#. #-#-#-#-#  twentyten.pot (Twenty Ten 2.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:40
-msgid "http://wordpress.org/"
-msgstr "http://bg.wordpress.org/"
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
 
 #. Author of the plugin/theme
 msgid "the WordPress team"
 msgstr "екипа на WordPress "
 
-#: search.php:29
-msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
-msgstr "Нищо не отговаря на критериите ви. Моля опитайте отново с различни ключови думи."
-
-#: comments.php:73
-msgid "Comments are closed."
-msgstr "Коментарите са затворени."
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyten/"
+msgstr "https://wordpress.org/themes/twentyten/"

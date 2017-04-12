@@ -1,68 +1,468 @@
-# Translation of Twenty Eleven in Bulgarian
-# This file is distributed under the same license as the Twenty Eleven package.
+# Translation of Themes - Twenty Eleven in Bulgarian
+# This file is distributed under the same license as the Themes - Twenty Eleven package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-06-11 15:40:08+0000\n"
+"PO-Revision-Date: 2016-12-11 23:36:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
-"Project-Id-Version: Twenty Eleven\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: bg\n"
+"Project-Id-Version: Themes - Twenty Eleven\n"
 
-#. Theme URI of the plugin/theme
-msgid "http://wordpress.org/themes/twentyeleven"
-msgstr "http://wordpress.org/themes/twentyeleven"
+#. Description of the plugin/theme
+msgid "The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. Make it yours with a custom menu, header image, and background -- then go further with available theme options for light or dark color scheme, custom link colors, and three layout choices. Twenty Eleven comes equipped with a Showcase page template that transforms your front page into a showcase to show off your best content, widget support galore (sidebar, three footer areas, and a Showcase page widget area), and a custom \"Ephemera\" widget to display your Aside, Link, Quote, or Status posts. Included are styles for print and for the admin editor, support for featured images (as custom header images on posts and pages and as large images on featured \"sticky\" posts), and special styles for six different post formats."
+msgstr "Темата 2011 е изискана, лека и гъвкава. Променете я по свой вкус със собствено меню, заглавна картинка и фон – направете една стъпка напред с настройките за светла и тъмна цветова схема, цвят на връзките и три различни разположения на съдържанието. Две хиляди и единадесет идва с шаблона за страници Витрина, който преобразява началната ви страница в място, където може да покажете най-доброто си съдържание, много зони за джаджи (странична лента, три зони в долната част на сайта и на Витрината), както и специална джаджа за бързи публикации като бележки, връзки, цитати или статуси. Включени са стилове за печат и за визуалния редактор, поддръжка  на собствени изображения (показват се вместо заглавната картинка на страници и публикации и като голямо изображение за публикациите „на фокус“) и специални стилове за 6 различни формата за публикации."
 
-#: functions.php:669
-msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-
-#: content-image.php:36
-msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
-msgstr "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
-
-#. Template Name of the plugin/theme
-msgid "Showcase Template"
-msgstr "Шаблон \"Витрина\""
+#. Theme Name of the plugin/theme
+msgid "Twenty Eleven"
+msgstr "Две хиляди и единадесет"
 
 #. Template Name of the plugin/theme
 msgid "Sidebar Template"
 msgstr "Шаблон за страничната лента"
 
-#: image.php:30
-msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr "<span class=\"meta-prep meta-prep-entry-date\">Публикувано </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> в размер <a href=\"%3$s\" title=\"Връзка към пълния размер на изображението\">%4$s &times; %5$s</a> в <a href=\"%6$s\" title=\"Назад към %7$s\" rel=\"gallery\">%8$s</a>"
+#. Template Name of the plugin/theme
+msgid "Showcase Template"
+msgstr "Шаблон \"Витрина\""
+
+#: tag.php:19
+msgid "Tag Archives: %s"
+msgstr "Архив за етикет: %s"
+
+#: single.php:20
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следваща <span class=\"meta-nav\">&rarr;</span>"
+
+#: single.php:19
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предишни"
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr "Мета"
+
+#: sidebar.php:19
+msgid "Archives"
+msgstr "Архиви"
+
+#: showcase.php:161
+msgid "Recent Posts"
+msgstr "Последни публикации"
+
+#: showcase.php:151
+msgid "Featuring: %s"
+msgstr "%s"
+
+#: showcase.php:78
+msgid "Featured Post"
+msgstr "Избрана публикация"
+
+#: searchform.php:11 searchform.php:12 searchform.php:13
+msgid "Search"
+msgstr "Търсене"
+
+#: search.php:48
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Нищо не отговаря на критериите ви. Моля опитайте отново с различни ключови думи."
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Резултати от търсене на: %s"
+
+#: inc/widgets.php:185
+msgid "Number of posts to show:"
+msgstr "Брой публикации:"
+
+#: inc/widgets.php:182
+msgid "Title:"
+msgstr "Заглавие:"
+
+#: inc/widgets.php:107 inc/widgets.php:116
+msgid "% <span class=\"reply\">comments &rarr;</span>"
+msgstr "% <span class=\"reply\">коментара &rarr;</span>"
+
+#: inc/widgets.php:107 inc/widgets.php:116
+msgid "1 <span class=\"reply\">comment &rarr;</span>"
+msgstr "1 <span class=\"reply\">коментар &rarr;</span>"
+
+#: inc/widgets.php:107 inc/widgets.php:116
+msgid "0 <span class=\"reply\">comments &rarr;</span>"
+msgstr "0 <span class=\"reply\">коментара &rarr;</span>"
+
+#: inc/widgets.php:68
+msgid "Ephemera"
+msgstr "Бързи"
+
+#: inc/widgets.php:21
+msgid "Twenty Eleven Ephemera"
+msgstr "Бързи публикации в Две хиляди и единадесет"
+
+#: inc/widgets.php:23
+msgid "Use this widget to list your recent Aside, Status, Quote, and Link posts"
+msgstr "Използвайте тази джаджа, за да покажете списък с най-новите си бележки, статуси, цитати и връзки"
+
+#: inc/theme-options.php:566
+msgid "Layout"
+msgstr "Разположение"
+
+#: inc/theme-options.php:337
+msgid "%s Theme Options"
+msgstr "Настройки за %s"
+
+#: inc/theme-options.php:301
+msgid "Default color: %s"
+msgstr "Цвят по подразбиране: %s"
+
+#: inc/theme-options.php:298
+msgid "Select a Color"
+msgstr "Избор на цвят"
+
+#: inc/theme-options.php:191
+msgid "One-column, no sidebar"
+msgstr "Една колона, без странична лента"
+
+#: inc/theme-options.php:186
+msgid "Content on right"
+msgstr "Съдържанието е вдясно"
+
+#: inc/theme-options.php:181
+msgid "Content on left"
+msgstr "Съдържанието в вляво"
+
+#: inc/theme-options.php:156
+msgid "Dark"
+msgstr "Тъмна"
+
+#: inc/theme-options.php:150
+msgid "Light"
+msgstr "Светла"
 
 #: inc/theme-options.php:128
 msgid "Overview"
 msgstr "Общ преглед"
 
-#: archive.php:29
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr "Y"
+#: inc/theme-options.php:121
+msgid "<a href=\"https://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"http://bg.forums.wordpress.org/\" target=\"_blank\">Форуми за поддръжка</a>"
 
-#: archive.php:27
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr "F Y"
+#: inc/theme-options.php:120
+msgid "<a href=\"https://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">Documentation on Theme Options</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">Документация за настройки по темата</a>"
+
+#: inc/theme-options.php:119
+msgid "For more information:"
+msgstr "За повече информация:"
+
+#: inc/theme-options.php:117
+msgid "Remember to click \"Save Changes\" to save any changes you have made to the theme options."
+msgstr "Не забравяйте да натиснете „Запазване на промените“, за да запишете всички промени, които сте направили по настройките на темата."
+
+#: inc/theme-options.php:115
+msgid "<strong>Default Layout</strong>: You can choose if you want your site&#8217;s default layout to have a sidebar on the left, the right, or not at all."
+msgstr "<strong>Разположение по подразбиране</strong>: Може да изберете разположението на страничната лента и на колоните."
+
+#: inc/theme-options.php:114
+msgid "<strong>Link Color</strong>: You can choose the color used for text links on your site. You can enter the HTML color or hex code, or you can choose visually by clicking the \"Select a Color\" button to pick from a color wheel."
+msgstr "<strong>Цвят на връзките</strong>: Може да избирате цвета на връзките в сайта си. Може да въведете както шестнадесетичния код на цвета, така и да го изберете визуално  като натиснете на бутона \"Избор на цвят\"."
+
+#: inc/theme-options.php:113
+msgid "<strong>Color Scheme</strong>: You can choose a color palette of \"Light\" (light background with dark text) or \"Dark\" (dark background with light text) for your site."
+msgstr "<strong>Цветова схема</strong>: Може да избирате между две палитри „Светла“ (светъл фон, тъмен текст) или \"Тъмна\" (тъмен фон, светъл текст)."
+
+#: inc/theme-options.php:111
+msgid "Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:"
+msgstr "Някои теми предлагат възможности за промяна събрание в екрана Настройки на темата. Ако смените темата си, някои от тези настройки може да не се пренесат в новата тема. Текущата ви тема, Две хиляди и единадесет, предлага следните настройки:"
+
+#: inc/theme-options.php:95 inc/theme-options.php:96
+msgid "Theme Options"
+msgstr "Допълнителни настройки"
+
+#: inc/theme-options.php:63
+msgid "Default Layout"
+msgstr "Разположение по подразбиране"
+
+#: inc/theme-options.php:62 inc/theme-options.php:559
+msgid "Link Color"
+msgstr "Цвят на връзките"
+
+#: inc/theme-options.php:56 inc/theme-options.php:542
+msgid "Color Scheme"
+msgstr "Цветова схема"
+
+#: image.php:30
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Публикувано </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> в размер <a href=\"%3$s\" title=\"Връзка към пълния размер на изображението\">%4$s &times; %5$s</a> в <a href=\"%6$s\" title=\"Назад към %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:20
+msgid "Next &rarr;"
+msgstr "Следващ &rarr;"
+
+#: image.php:19
+msgid "&larr; Previous"
+msgstr "&larr; Предишен"
+
+#: image.php:18
+msgid "Image navigation"
+msgstr "Навигация между изображенията"
+
+#: header.php:137
+msgid "Skip to secondary content"
+msgstr "Към вторичното съдържание"
+
+#: header.php:135
+msgid "Skip to primary content"
+msgstr "Към основното съдържание"
+
+#: header.php:133
+msgid "Main menu"
+msgstr "Основно меню"
+
+#: header.php:43
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: functions.php:672
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: functions.php:653
+msgid "Reply <span>&darr;</span>"
+msgstr "Отговор <span>↓</span>"
+
+#: functions.php:644
+msgid "Your comment is awaiting moderation."
+msgstr "Коментарът ви очаква одобрение."
+
+#. translators: 1: date, 2: time
+#: functions.php:635
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#. translators: 1: comment author, 2: date and time
+#: functions.php:629
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr "%1$s на %2$s <span class=\"says\">каза:</span>"
+
+#: functions.php:612
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:514
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "По-нови публикации <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:513
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> По-стари публикации"
+
+#: functions.php:512 single.php:18
+msgid "Post navigation"
+msgstr "Навигация в публикациите"
+
+#: functions.php:488
+msgid "Footer Area Three"
+msgstr "Трета зона за джаджи в долната част на сайта"
+
+#: functions.php:478
+msgid "Footer Area Two"
+msgstr "Втора зона за джаджи в долната част на сайта"
+
+#: functions.php:470 functions.php:480 functions.php:490
+msgid "An optional widget area for your site footer"
+msgstr "Незадължителна зона за джаджи в долната част на сайта"
+
+#: functions.php:468
+msgid "Footer Area One"
+msgstr "Първа зона за джаджи в долната част на сайта"
+
+#: functions.php:460
+msgid "The sidebar for the optional Showcase Template"
+msgstr "Странична лента за шаблона Витрина"
+
+#: functions.php:458
+msgid "Showcase Sidebar"
+msgstr "Странична лента за Витрина"
+
+#: functions.php:449
+msgid "Main Sidebar"
+msgstr "Основна странична лента"
+
+#. translators: header image description
+#: functions.php:226
+msgid "Hanoi Plant"
+msgstr "Растение в Ханой"
+
+#. translators: header image description
+#: functions.php:220
+msgid "Willow"
+msgstr "Върба"
+
+#. translators: header image description
+#: functions.php:214
+msgid "Lanterns"
+msgstr "Фенери"
+
+#. translators: header image description
+#: functions.php:208
+msgid "Chessboard"
+msgstr "Шах"
+
+#. translators: header image description
+#: functions.php:202
+msgid "Pine Cone"
+msgstr "Шишарка"
+
+#. translators: header image description
+#: functions.php:196
+msgid "Trolley"
+msgstr "Трамвай"
+
+#. translators: header image description
+#: functions.php:190
+msgid "Shore"
+msgstr "Бряг"
+
+#. translators: header image description
+#: functions.php:184
+msgid "Wheel"
+msgstr "Колело"
+
+#: functions.php:95
+msgid "Primary Menu"
+msgstr "Главно меню"
+
+#: footer.php:28
+msgid "Proudly powered by %s"
+msgstr "Задвижвано с гордост от  %s"
+
+#: footer.php:28
+msgid "Semantic Personal Publishing Platform"
+msgstr "Семантична система за публикуване"
+
+#: content.php:16
+msgid "Featured"
+msgstr "На фокус"
+
+#: content-status.php:19
+msgid "Status"
+msgstr "Статус"
+
+#: content-single.php:67
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Всички публикации от %s <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-single.php:39
 msgid "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Публикувано от <a href=\"%6$s\">%5$s</a>. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
 
-#: functions.php:650
-msgid "Reply <span>&darr;</span>"
-msgstr "Отговор <span>↓</span>"
+#: content-single.php:37
+msgid "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Публикувано в  %1$s от <a href=\"%6$s\">%5$s</a>. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
 
-#: single.php:20
-msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Следващи <span class=\"meta-nav\">&rarr;</span>"
+#: content-single.php:35
+msgid "This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Публикувано в %1$s с етикети %2$s от <a href=\"%6$s\">%5$s</a>. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
 
-#: single.php:19
-msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr "<span class=\"meta-nav\">&larr;</span> Предишни"
+#: content-quote.php:15
+msgid "Quote"
+msgstr "Цитат"
+
+#: content-link.php:19
+msgid "Link"
+msgstr "Връзка"
+
+#: content-image.php:41 functions.php:678
+msgid "View all posts by %s"
+msgstr "Всички публикации от %s"
+
+#: content-image.php:36
+msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+msgstr "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+
+#: content-image.php:18
+msgid "Image"
+msgstr "Изображение"
+
+#: content-gallery.php:76 content-image.php:61 content-quote.php:60
+#: content.php:69
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Етикети:</span> %2$s"
+
+#: content-gallery.php:64 content-image.php:53 content-quote.php:48
+#: content.php:55
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Публикувано в</span> %2$s"
+
+#: content-gallery.php:46 showcase.php:121
+msgid "Permalink to %s"
+msgstr "Постоянна връзка към %s"
+
+#: content-gallery.php:45
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Галерията съдържа <a %1$s>%2$s снимка</a>."
+msgstr[1] "Галерията съдържа <a %1$s>%2$s снимки</a>."
+
+#: content-gallery.php:19
+msgid "Gallery"
+msgstr "Галерия"
+
+#: content-featured.php:33
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Публикувано в %1$s. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
+
+#: content-featured.php:31
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Публикувано в %1$s с етикети %2$s. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
+
+#. translators: used between list items, there is a space after the comma
+#: content-featured.php:29 content-featured.php:38 content-gallery.php:60
+#: content-gallery.php:70 content-image.php:49 content-image.php:58
+#: content-quote.php:44 content-quote.php:54 content-single.php:30
+#: content-single.php:33 content.php:51 content.php:63
+msgid ", "
+msgstr ", "
+
+#: content-aside.php:46 content-featured.php:45 content-gallery.php:88
+#: content-image.php:70 content-intro.php:19 content-link.php:46
+#: content-page.php:21 content-quote.php:72 content-single.php:52
+#: content-status.php:59 content.php:82 functions.php:612 functions.php:640
+#: image.php:41
+msgid "Edit"
+msgstr "Редактиране"
+
+#: content-aside.php:44 content-gallery.php:85 content-image.php:66
+#: content-link.php:44 content-quote.php:69 content-status.php:57
+#: content.php:79 showcase.php:202
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> отговора"
+
+#: content-aside.php:44 content-gallery.php:85 content-image.php:66
+#: content-link.php:44 content-quote.php:69 content-status.php:57
+#: content.php:79 showcase.php:202
+msgid "<b>1</b> Reply"
+msgstr "<b>1</b> отговор"
+
+#: content-aside.php:44 content-gallery.php:85 content-image.php:66
+#: content-link.php:44 content-quote.php:69 content-status.php:57
+#: content.php:79 showcase.php:202
+msgid "Leave a reply"
+msgstr "Вашият коментар"
+
+#: content-aside.php:36 content-featured.php:23 content-gallery.php:52
+#: content-image.php:30 content-intro.php:18 content-link.php:36
+#: content-page.php:18 content-quote.php:36 content-single.php:24
+#: content-status.php:49 content.php:42 image.php:98
+msgid "Pages:"
+msgstr "Страници:"
+
+#: content-aside.php:35 content-gallery.php:34 content-image.php:29
+#: content-link.php:35 content-quote.php:35 content-status.php:48
+#: content.php:41 functions.php:378
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Има още <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-aside.php:24 content-image.php:23 content-link.php:24
 #: content-quote.php:24 content-status.php:24 content.php:30
@@ -81,286 +481,13 @@ msgstr "1"
 msgid "Reply"
 msgstr "Отговор"
 
-#: image.php:18
-msgid "Image navigation"
-msgstr "Навигация между изображенията"
-
-#. translators: 1: date, 2: time
-#: functions.php:632
-msgid "%1$s at %2$s"
-msgstr "%1$s в %2$s"
-
-#. translators: 1: comment author, 2: date and time
-#: functions.php:626
-msgid "%1$s on %2$s <span class=\"says\">said:</span>"
-msgstr "%1$s на %2$s <span class=\"says\">каза:</span>"
-
-#: archive.php:61 author.php:90 category.php:63 index.php:41 tag.php:64
-msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
-msgstr "Няма резултати за търсения архив. Може би търсачката ще ви помогне да откриете подобна публикация."
-
-#: inc/theme-options.php:119
-msgid "For more information:"
-msgstr "За повече информация:"
-
-#: inc/theme-options.php:63
-msgid "Default Layout"
-msgstr "Разположение по подразбиране"
-
-#: inc/theme-options.php:120
-msgid "<a href=\"http://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">Documentation on Theme Options</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">Документация за настройки по темата</a>"
-
-#: inc/theme-options.php:121
-msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
-msgstr "<a href=\"http://bg.forums.wordpress.org/\" target=\"_blank\">Форуми за поддръжка</a>"
-
-#: inc/theme-options.php:117
-msgid "Remember to click \"Save Changes\" to save any changes you have made to the theme options."
-msgstr "Не забравяйте да натиснете „Запазване на промените“, за да запишете всички промени, които сте направили по настройките на темата."
-
-#: header.php:135
-msgid "Skip to primary content"
-msgstr "Към основното съдържание"
-
-#: header.php:137
-msgid "Skip to secondary content"
-msgstr "Към вторичното съдържание"
-
-#: inc/theme-options.php:191
-msgid "One-column, no sidebar"
-msgstr "Една колона, без странична лента"
-
-#: inc/theme-options.php:111
-msgid "Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:"
-msgstr "Някои теми предлагат възможности за промяна събрание в екрана Настройки на темата. Ако смените темата си, някои от тези настройки може да не се пренесат в новата тема. Текущата ви тема, Две хиляди и единадесет, предлага следните настройки:"
-
-#: inc/theme-options.php:113
-msgid "<strong>Color Scheme</strong>: You can choose a color palette of \"Light\" (light background with dark text) or \"Dark\" (dark background with light text) for your site."
-msgstr "<strong>Цветова схема</strong>: Може да избирате между две палитри „Светла“ (светъл фон, тъмен текст) или \"Тъмна\" (тъмен фон, светъл текст)."
-
-#: inc/theme-options.php:115
-msgid "<strong>Default Layout</strong>: You can choose if you want your site&#8217;s default layout to have a sidebar on the left, the right, or not at all."
-msgstr "<strong>Разположение по подразбиране</strong>: Може да изберете разположението на страничната лента и на колоните."
-
-#: inc/theme-options.php:114
-msgid "<strong>Link Color</strong>: You can choose the color used for text links on your site. You can enter the HTML color or hex code, or you can choose visually by clicking the \"Select a Color\" button to pick from a color wheel."
-msgstr "<strong>Цвят на връзките</strong>: Може да избирате цвета на връзките в сайта си. Може да въведете както шестнадесетичния код на цвета, така и да го изберете визуално  като натиснете на бутона \"Избор на цвят\"."
-
-#. translators: used between list items, there is a space after the comma
-#: content-featured.php:29 content-featured.php:38 content-gallery.php:60
-#: content-gallery.php:70 content-image.php:49 content-image.php:58
-#: content-quote.php:44 content-quote.php:54 content-single.php:30
-#: content-single.php:33 content.php:51 content.php:63
-msgid ", "
-msgstr ", "
-
-#: content-gallery.php:64 content-image.php:53 content-quote.php:48
-#: content.php:55
-msgid "<span class=\"%1$s\">Posted in</span> %2$s"
-msgstr "<span class=\"%1$s\">Публикувано в</span> %2$s"
-
-#: footer.php:28
-msgid "Proudly powered by %s"
-msgstr "Задвижвано с гордост от  %s"
-
-#: content-gallery.php:76 content-image.php:61 content-quote.php:60
-#: content.php:69
-msgid "<span class=\"%1$s\">Tagged</span> %2$s"
-msgstr "<span class=\"%1$s\">Етикети:</span> %2$s"
-
-#: footer.php:28
-msgid "Semantic Personal Publishing Platform"
-msgstr "Семантична система за публикуване"
-
-#: content-status.php:19
-msgid "Status"
-msgstr "Статус"
-
-#: content-quote.php:15
-msgid "Quote"
-msgstr "Цитат"
-
-#: content-gallery.php:19
-msgid "Gallery"
-msgstr "Галерия"
-
-#: content-link.php:19
-msgid "Link"
-msgstr "Връзка"
-
-#: content-image.php:18
-msgid "Image"
-msgstr "Снимка"
-
 #: content-aside.php:19
 msgid "Aside"
 msgstr "Бележка"
 
-#: content.php:16
-msgid "Featured"
-msgstr "На фокус"
-
-#. Description of the plugin/theme
-msgid "The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. Make it yours with a custom menu, header image, and background -- then go further with available theme options for light or dark color scheme, custom link colors, and three layout choices. Twenty Eleven comes equipped with a Showcase page template that transforms your front page into a showcase to show off your best content, widget support galore (sidebar, three footer areas, and a Showcase page widget area), and a custom \"Ephemera\" widget to display your Aside, Link, Quote, or Status posts. Included are styles for print and for the admin editor, support for featured images (as custom header images on posts and pages and as large images on featured \"sticky\" posts), and special styles for six different post formats."
-msgstr "Темата 2011 е изискана, лека и гъвкава. Променете я по свой вкус със собствено меню, заглавна картинка и фон – направете една стъпка напред с настройките за светла и тъмна цветова схема, цвят на връзките и три различни разположения на съдържанието. Две хиляди и единадесет идва с шаблона за страници Витрина, който преобразява началната ви страница в място, където може да покажете най-доброто си съдържание, много зони за джаджи (странична лента, три зони в долната част на сайта и на Витрината), както и специална джаджа за бързи публикации като бележки, връзки, цитати или статуси. Включени са стилове за печат и за визуалния редактор, поддръжка  на собствени изображения (показват се вместо заглавната картинка на страници и публикации и като голямо изображение за публикациите „на фокус“) и специални стилове за 6 различни формата за публикации."
-
-#: inc/theme-options.php:301
-msgid "Default color: %s"
-msgstr "Цвят по подразбиране: %s"
-
-#: inc/theme-options.php:298
-msgid "Select a Color"
-msgstr "Избор на цвят"
-
-#: archive.php:25
-msgid "Daily Archives: %s"
-msgstr "Дневни архиви: %s"
-
-#: inc/theme-options.php:62 inc/theme-options.php:545
-msgid "Link Color"
-msgstr "Цвят на връзките"
-
-#: archive.php:27
-msgid "Monthly Archives: %s"
-msgstr "Месечни архиви: %s"
-
-#: inc/widgets.php:21
-msgid "Use this widget to list your recent Aside, Status, Quote, and Link posts"
-msgstr "Използвайте тази джаджа, за да покажете списък с най-новите си бележки, статуси, цитати и връзки"
-
-#: archive.php:29
-msgid "Yearly Archives: %s"
-msgstr "Годишни архиви: %s"
-
-#. translators: header image description
-#: functions.php:226
-msgid "Hanoi Plant"
-msgstr "Растение в Ханой"
-
-#: inc/theme-options.php:186
-msgid "Content on right"
-msgstr "Съдържанието е вдясно"
-
-#: inc/theme-options.php:181
-msgid "Content on left"
-msgstr "Съдържанието в вляво"
-
-#: inc/theme-options.php:156
-msgid "Dark"
-msgstr "Тъмна"
-
-#: inc/theme-options.php:150
-msgid "Light"
-msgstr "Светла"
-
-#: inc/theme-options.php:337
-msgid "%s Theme Options"
-msgstr "Настройки за %s"
-
-#: inc/theme-options.php:95 inc/theme-options.php:96
-msgid "Theme Options"
-msgstr "Настройки на тема"
-
-#: inc/theme-options.php:56 inc/theme-options.php:528
-msgid "Color Scheme"
-msgstr "Цветова схема"
-
-#. translators: header image description
-#: functions.php:214
-msgid "Lanterns"
-msgstr "Фенери"
-
-#. translators: header image description
-#: functions.php:220
-msgid "Willow"
-msgstr "Върба"
-
-#. translators: header image description
-#: functions.php:208
-msgid "Chessboard"
-msgstr "Шах"
-
-#. translators: header image description
-#: functions.php:202
-msgid "Pine Cone"
-msgstr "Шишарка"
-
-#. translators: header image description
-#: functions.php:184
-msgid "Wheel"
-msgstr "Колело"
-
-#: showcase.php:151
-msgid "Featuring: %s"
-msgstr "%s"
-
-#. translators: header image description
-#: functions.php:190
-msgid "Shore"
-msgstr "Бряг"
-
-#. translators: header image description
-#: functions.php:196
-msgid "Trolley"
-msgstr "Трамвай"
-
-#: inc/theme-options.php:552
-msgid "Layout"
-msgstr "Разположение"
-
-#: content-aside.php:46 content-featured.php:45 content-gallery.php:88
-#: content-image.php:70 content-intro.php:19 content-link.php:46
-#: content-page.php:21 content-quote.php:72 content-single.php:52
-#: content-status.php:59 content.php:82 functions.php:609 functions.php:637
-#: image.php:41
-msgid "Edit"
-msgstr "Редактиране"
-
-#: sidebar.php:19
-msgid "Archives"
-msgstr "Архиви"
-
-#: 404.php:28
-msgid "Most Used Categories"
-msgstr "Най-използвани категории"
-
-#: content-aside.php:36 content-featured.php:23 content-gallery.php:52
-#: content-image.php:30 content-intro.php:18 content-link.php:36
-#: content-page.php:18 content-quote.php:36 content-single.php:24
-#: content-status.php:49 content.php:42 image.php:98
-msgid "Pages:"
-msgstr "Страници:"
-
-#: searchform.php:11 searchform.php:12 searchform.php:13
-msgid "Search"
-msgstr "Търсене"
-
-#: inc/widgets.php:167
-msgid "Title:"
-msgstr "Заглавие:"
-
-#: inc/widgets.php:95 inc/widgets.php:104
-msgid "1 <span class=\"reply\">comment &rarr;</span>"
-msgstr "1 <span class=\"reply\">коментар &rarr;</span>"
-
-#: author.php:60 content-single.php:63
-msgid "About %s"
-msgstr "За %s"
-
-#: inc/widgets.php:95 inc/widgets.php:104
-msgid "0 <span class=\"reply\">comments &rarr;</span>"
-msgstr "0 <span class=\"reply\">коментара &rarr;</span>"
-
-#: inc/widgets.php:56
-msgid "Ephemera"
-msgstr "Бързи"
-
-#. #-#-#-#-#  twentyeleven.pot (Twenty Eleven 2.0)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:28
-msgid "http://wordpress.org/"
-msgstr "http://bg.wordpress.org/"
+#: comments.php:74
+msgid "Comments are closed."
+msgstr "Коментари са забранени."
 
 #: comments.php:43 comments.php:64
 msgid "Newer Comments &rarr;"
@@ -370,49 +497,15 @@ msgstr "По-нови коментари &rarr;"
 msgid "&larr; Older Comments"
 msgstr "&larr; По-стари коментари"
 
-#: content-single.php:67
-msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Всички публикации от %s <span class=\"meta-nav\">&rarr;</span>"
+#: comments.php:41 comments.php:62
+msgid "Comment navigation"
+msgstr "Навигация в коментарите"
 
-#: author.php:29
-msgid "Author Archives: %s"
-msgstr "Архив на: %s"
-
-#: functions.php:609
-msgid "Pingback:"
-msgstr "Pingback:"
-
-#: content-featured.php:31
-msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr "Публикувано в %1$s с етикети %2$s. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
-
-#: content-featured.php:33
-msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr "Публикувано в %1$s. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
-
-#: sidebar.php:26
-msgid "Meta"
-msgstr "Служебни"
-
-#: functions.php:641
-msgid "Your comment is awaiting moderation."
-msgstr "Коментарът ви очаква одобрение."
-
-#: header.php:43
-msgid "Page %s"
-msgstr "Страница %s"
-
-#: content-gallery.php:46 showcase.php:121
-msgid "Permalink to %s"
-msgstr "Постоянна връзка към %s"
-
-#: functions.php:511
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "По-нови публикации <span class=\"meta-nav\">&rarr;</span>"
-
-#: functions.php:510
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> По-стари публикации"
+#: comments.php:34
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Едно мнение по &#8222;%2$s&#8220; "
+msgstr[1] "%1$s мнения по &#8222;%2$s&#8220;"
 
 #: comments.php:17
 msgid "This post is password protected. Enter the password to view any comments."
@@ -422,168 +515,76 @@ msgstr "Тази публикация е защитена с парола. Мо�
 msgid "Category Archives: %s"
 msgstr "Архив на категория: %s"
 
-#: archive.php:31
-msgid "Blog Archives"
-msgstr "Архив на блога"
+#: author.php:60 content-single.php:63
+msgid "About %s"
+msgstr "За %s"
 
-#: content-image.php:41 functions.php:675
-msgid "View all posts by %s"
-msgstr "Всички публикации от %s"
+#: author.php:29
+msgid "Author Archives: %s"
+msgstr "Архив на: %s"
 
-#: content-aside.php:35 content-gallery.php:34 content-image.php:29
-#: content-link.php:35 content-quote.php:35 content-status.php:48
-#: content.php:41 functions.php:375
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Има още <span class=\"meta-nav\">&rarr;</span>"
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "екипа на WordPress "
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "Резултати от търсене на: %s"
+#: archive.php:61 author.php:90 category.php:63 index.php:41 tag.php:64
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Няма резултати за търсения архив. Може би търсачката ще ви помогне да откриете подобна публикация."
 
 #: archive.php:57 author.php:86 category.php:59 index.php:37 search.php:44
 #: tag.php:60
 msgid "Nothing Found"
 msgstr "Нищо не е открито"
 
-#: search.php:48
-msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
-msgstr "Нищо не отговаря на критериите ви. Моля опитайте отново с различни ключови думи."
+#: archive.php:31
+msgid "Blog Archives"
+msgstr "Архив на блога"
 
-#: 404.php:17
-msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr "Грешка 404"
+#: archive.php:29
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
 
-#: comments.php:41 comments.php:62
-msgid "Comment navigation"
-msgstr "Навигация в коментарите"
+#: archive.php:29
+msgid "Yearly Archives: %s"
+msgstr "Годишни архиви: %s"
 
-#: inc/widgets.php:22
-msgid "Twenty Eleven Ephemera"
-msgstr "Бързи публикации в Две хиляди и единадесет"
+#: archive.php:27
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
 
-#: showcase.php:78
-msgid "Featured Post"
-msgstr "Публикация на фокус"
+#: archive.php:27
+msgid "Monthly Archives: %s"
+msgstr "Месечни архиви: %s"
 
-#: showcase.php:161
-msgid "Recent Posts"
-msgstr "Последни публикации"
+#: archive.php:25
+msgid "Daily Archives: %s"
+msgstr "Дневни архиви: %s"
 
 #. translators: %1$s: smilie
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Погледнете в месечните архиви. %1$s"
 
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Най-използвани категории"
+
 #: 404.php:21
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
 msgstr "Страницата не съществува. Потърсете, това което ви трябва или опитайте някоя от връзките по-долу."
 
-#: inc/widgets.php:170
-msgid "Number of posts to show:"
-msgstr "Брой публикации:"
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Грешка 404"
 
-#. Theme Name of the plugin/theme
-msgid "Twenty Eleven"
-msgstr "Две хиляди и единадесет"
+#. #-#-#-#-#  twentyeleven.pot (Twenty Eleven 2.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:28
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
 
-#: inc/widgets.php:95 inc/widgets.php:104
-msgid "% <span class=\"reply\">comments &rarr;</span>"
-msgstr "% <span class=\"reply\">коментара &rarr;</span>"
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "екипа на WordPress "
 
-#: content-aside.php:44 content-gallery.php:85 content-image.php:66
-#: content-link.php:44 content-quote.php:69 content-status.php:57
-#: content.php:79 showcase.php:202
-msgid "<b>%</b> Replies"
-msgstr "<b>%</b> отговора"
-
-#: content-aside.php:44 content-gallery.php:85 content-image.php:66
-#: content-link.php:44 content-quote.php:69 content-status.php:57
-#: content.php:79 showcase.php:202
-msgid "<b>1</b> Reply"
-msgstr "<b>1</b> отговор"
-
-#: content-single.php:37
-msgid "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr "Публикувано в  %1$s от <a href=\"%6$s\">%5$s</a>. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
-
-#: content-single.php:35
-msgid "This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr "Публикувано в %1$s с етикети %2$s от <a href=\"%6$s\">%5$s</a>. <a href=\"%3$s\" title=\"Постоянна връзка към %4$s\" rel=\"bookmark\">Постоянна връзка</a>."
-
-#: content-aside.php:44 content-gallery.php:85 content-image.php:66
-#: content-link.php:44 content-quote.php:69 content-status.php:57
-#: content.php:79 showcase.php:202
-msgid "Leave a reply"
-msgstr "Вашият отговор"
-
-#: content-gallery.php:45
-msgid "This gallery contains <a %1$s>%2$s photo</a>."
-msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
-msgstr[0] "Галерията съдържа <a %1$s>%2$s снимка</a>."
-msgstr[1] "Галерията съдържа <a %1$s>%2$s снимки</a>."
-
-#: image.php:20
-msgid "Next &rarr;"
-msgstr "Следващ &rarr;"
-
-#: image.php:19
-msgid "&larr; Previous"
-msgstr "&larr; Предишен"
-
-#: header.php:133
-msgid "Main menu"
-msgstr "Главно меню"
-
-#: functions.php:509 single.php:18
-msgid "Post navigation"
-msgstr "Навигация в публикациите"
-
-#: functions.php:485
-msgid "Footer Area Three"
-msgstr "Трета зона за джаджи в долната част на сайта"
-
-#: functions.php:475
-msgid "Footer Area Two"
-msgstr "Втора зона за джаджи в долната част на сайта"
-
-#: functions.php:467 functions.php:477 functions.php:487
-msgid "An optional widget area for your site footer"
-msgstr "Незадължителна зона за джаджи в долната част на сайта"
-
-#: functions.php:465
-msgid "Footer Area One"
-msgstr "Първа зона за джаджи в долната част на сайта"
-
-#: functions.php:457
-msgid "The sidebar for the optional Showcase Template"
-msgstr "Странична лента за шаблона Витрина"
-
-#: functions.php:455
-msgid "Showcase Sidebar"
-msgstr "Странична лента за Витрина"
-
-#: functions.php:446
-msgid "Main Sidebar"
-msgstr "Основна странична лента"
-
-#: functions.php:95
-msgid "Primary Menu"
-msgstr "Главно меню"
-
-#: tag.php:19
-msgid "Tag Archives: %s"
-msgstr "Архив за етикет: %s"
-
-#: comments.php:34
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Едно мнение по &#8222;%2$s&#8220; "
-msgstr[1] "%1$s мнения по &#8222;%2$s&#8220;"
-
-#: comments.php:74
-msgid "Comments are closed."
-msgstr "Коментарите са затворени."
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyeleven/"
+msgstr "https://wordpress.org/themes/twentyeleven/"
