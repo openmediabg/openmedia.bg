@@ -43,10 +43,10 @@
       "package": {
         "name": "tommusrhodus/ebor-cpt",
         "type": "wordpress-plugin",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/tommusrhodus/ebor-cpt/archive/master.zip"
+          "url": "https://github.com/mitio/ebor-cpt/archive/master.zip"
         },
         "extra": {
           "installer-name": "ebor-cpt-master"
@@ -73,10 +73,10 @@
       "package": {
         "name": "tommusrhodus/Ebor-Popular-Posts",
         "type": "wordpress-plugin",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/tommusrhodus/Ebor-Popular-Posts/archive/master.zip"
+          "url": "https://github.com/mitio/Ebor-Popular-Posts/archive/master.zip"
         },
         "extra": {
           "installer-name": "Ebor-Popular-Posts-master"
@@ -145,7 +145,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.1",
+    "johnpbloch/wordpress": "4.7.3",
     "composer/installers": "v1.0.12",
     "tommusrhodus/kyte": "*",
     "jetpack-photon-local-domains": "*",
@@ -153,7 +153,7 @@
     "wpackagist-theme/twentythirteen": "*",
     "wpackagist-plugin/akismet": "*",
     "wpackagist-plugin/backupwordpress": "*",
-    "wpackagist-plugin/better-wp-security": "4.*",
+    "wpackagist-plugin/better-wp-security": "*",
     "wpackagist-plugin/column-shortcodes": "*",
     "wpackagist-plugin/cyr3lat": "*",
     "wpackagist-plugin/developer": "*",
@@ -169,7 +169,6 @@
     "wpackagist-plugin/w3-total-cache": "*",
     "wpackagist-plugin/widget-shortcode": "*",
     "wpackagist-plugin/wordpress-importer": "*",
-    "wpackagist-plugin/wp-social-seo-booster": "*",
     "wpackagist-plugin/wp-super-cache": "*",
     "wpackagist-plugin/wpremote": "*",
     "vlucas/phpdotenv": "1.0.9"
