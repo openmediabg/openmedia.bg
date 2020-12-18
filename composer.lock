@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79a3e42aa0b686dcf42cbdbadc4a1fde",
+    "content-hash": "591bb556860f0a95318c3de606b332c7",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -777,6 +777,7 @@
                 "array_column",
                 "column"
             ],
+            "abandoned": "it-for-free/array_column",
             "time": "2015-03-20T22:07:39+00:00"
         },
         {
@@ -1590,9 +1591,7 @@
             "version": "0.0.2",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/mitio/Ebor-Popular-Posts/archive/master.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/mitio/Ebor-Popular-Posts/archive/master.zip"
             },
             "type": "wordpress-plugin",
             "extra": {
@@ -1604,9 +1603,7 @@
             "version": "0.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/tommusrhodus/Ebor-Shortcodes/archive/master.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/tommusrhodus/Ebor-Shortcodes/archive/master.zip"
             },
             "type": "wordpress-plugin",
             "extra": {
@@ -1618,9 +1615,7 @@
             "version": "0.0.2",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/mitio/ebor-cpt/archive/master.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://github.com/mitio/ebor-cpt/archive/master.zip"
             },
             "type": "wordpress-plugin",
             "extra": {
@@ -1823,8 +1818,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.3.3.zip",
-                "reference": "tags/3.3",
-                "shasum": null
+                "reference": "tags/3.3"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1843,8 +1837,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/backupwordpress.3.6.3.1.zip",
-                "reference": "tags/3.6.3.1",
-                "shasum": null
+                "reference": "tags/3.6.3.1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1862,9 +1855,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/better-wp-security.6.2.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/better-wp-security.6.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1883,8 +1874,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/column-shortcodes.0.6.9.zip",
-                "reference": "tags/0.6.9",
-                "shasum": null
+                "reference": "tags/0.6.9"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1894,17 +1884,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.7",
+            "version": "5.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.7"
+                "reference": "tags/5.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.3.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1923,8 +1911,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/cyr3lat.3.5.zip",
-                "reference": "tags/3.5",
-                "shasum": null
+                "reference": "tags/3.5"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1943,8 +1930,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/developer.1.2.6.zip",
-                "reference": "tags/1.2.6",
-                "shasum": null
+                "reference": "tags/1.2.6"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1963,8 +1949,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
-                "reference": "tags/3.2",
-                "shasum": null
+                "reference": "tags/3.2"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1983,8 +1968,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.2.zip",
-                "reference": "tags/4.9.6.2",
-                "shasum": null
+                "reference": "tags/4.9.6.2"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2003,8 +1987,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.6.1.7.zip",
-                "reference": "tags/6.1.7",
-                "shasum": null
+                "reference": "tags/6.1.7"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2023,8 +2006,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/jetpack.4.8.2.zip",
-                "reference": "tags/4.8.2",
-                "shasum": null
+                "reference": "tags/4.8.2"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2043,8 +2025,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/keyring.1.7.1.zip",
-                "reference": "tags/1.7.1",
-                "shasum": null
+                "reference": "tags/1.7.1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2063,8 +2044,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/keyring-social-importers.1.7.zip",
-                "reference": "tags/1.7",
-                "shasum": null
+                "reference": "tags/1.7"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2083,8 +2063,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.1.1.zip",
-                "reference": "tags/4.1.1",
-                "shasum": null
+                "reference": "tags/4.1.1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2103,8 +2082,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/shortcodes-ultimate.4.9.9.zip",
-                "reference": "tags/4.9.9",
-                "shasum": null
+                "reference": "tags/4.9.9"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2123,8 +2101,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/verify-google-webmaster-tools.1.3.zip",
-                "reference": "tags/1.3",
-                "shasum": null
+                "reference": "tags/1.3"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2143,8 +2120,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.5.2.zip",
-                "reference": "tags/0.9.5.2",
-                "shasum": null
+                "reference": "tags/0.9.5.2"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2163,8 +2139,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/widget-shortcode.zip?timestamp=1481535023",
-                "reference": "trunk",
-                "shasum": null
+                "reference": "trunk"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2183,8 +2158,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
-                "reference": "tags/0.6.3",
-                "shasum": null
+                "reference": "tags/0.6.3"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2203,8 +2177,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.4.9.zip",
-                "reference": "tags/1.4.9",
-                "shasum": null
+                "reference": "tags/1.4.9"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2223,8 +2196,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wpremote.2.7.6.zip",
-                "reference": "tags/2.7.6",
-                "shasum": null
+                "reference": "tags/2.7.6"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2243,8 +2215,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/twentythirteen.2.1.zip",
-                "reference": "2.1",
-                "shasum": null
+                "reference": "2.1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2274,5 +2245,6 @@
     "platform": {
         "php": ">=5.4"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
