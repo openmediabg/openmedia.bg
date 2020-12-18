@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "591bb556860f0a95318c3de606b332c7",
+    "content-hash": "be0ecc3d1a10938d581997c08ad97477",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -686,6 +686,16 @@
                 "xml"
             ],
             "time": "2013-02-24T15:01:54+00:00"
+        },
+        {
+            "name": "openmediabg/jetpack-photon-local-domains",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openmediabg/jetpack-photon-local-domains.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "psr/log",

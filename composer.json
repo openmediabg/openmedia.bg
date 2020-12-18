@@ -125,14 +125,14 @@
           "tommusrhodus/Ebor-Shortcodes": "*@dev",
           "tommusrhodus/Ebor-Popular-Posts": "*@dev",
           "zilla-likes": "*@dev",
-          "wpackagist-plugin/contact-form-7": ">=5.3.2"
+          "wpackagist-plugin/contact-form-7": "4.7"
         }
       }
     },
     {
       "type": "package",
       "package": {
-        "name": "openmediabg/jetpack-photon-local-domains",
+        "name": "jetpack-photon-local-domains",
         "type": "wordpress-plugin",
         "version": "0.0.1",
         "source": {
@@ -148,7 +148,7 @@
     "johnpbloch/wordpress": "4.7.3",
     "composer/installers": "v1.0.12",
     "tommusrhodus/kyte": "*",
-    "openmediabg/jetpack-photon-local-domains": "*",
+    "jetpack-photon-local-domains": "*",
     "wp-cli/wp-cli": "*",
     "wpackagist-theme/twentythirteen": "*",
     "wpackagist-plugin/akismet": "*",
