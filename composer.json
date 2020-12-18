@@ -124,7 +124,7 @@
           "tommusrhodus/ebor-cpt": "*@dev",
           "tommusrhodus/Ebor-Shortcodes": "*@dev",
           "tommusrhodus/Ebor-Popular-Posts": "*@dev",
-          "wpackagist-plugin/contact-form-7": "4.7",
+          "wpackagist-plugin/contact-form-7": "5.3.2",
           "zilla-likes": "*@dev"
         }
       }
