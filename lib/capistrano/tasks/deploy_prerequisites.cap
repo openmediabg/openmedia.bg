@@ -1,0 +1,10 @@
+namespace :deploy do
+  task :prerequisites do
+    on roles(:all) do |role|
+      execute :composer, '--version'
+      execute :which, 'composer'
+    end
+  end
+
+  after :starting, 'deploy:prerequisites'
+end
